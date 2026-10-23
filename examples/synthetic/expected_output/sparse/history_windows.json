@@ -1,0 +1,20 @@
+{
+  "matched": [],
+  "unmatched": [],
+  "eligible_count": 0,
+  "equal_window_count": 0,
+  "current_n_target": 76,
+  "current_mean_paired_months": 73.375,
+  "current_gap_donor_coverage": 0.9791666666666666,
+  "matched_mean_distance": null,
+  "unmatched_mean_distance": null,
+  "distance_definition": "Equal mean: month circular distance/6, relative target count, relative mean paired count, absolute gap donor coverage. Relative difference = abs(a-b)/max(a,b,1).",
+  "selection_inputs": [
+    "target finite mask",
+    "donor finite mask",
+    "query indices",
+    "calendar months",
+    "boundary position",
+    "case_id SHA"
+  ]
+}

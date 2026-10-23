@@ -1,0 +1,26 @@
+{
+  "data_kind": "synthetic",
+  "derived_from_GSIM": false,
+  "seed": 20261023,
+  "calendar_start": "1995-01",
+  "calendar_end": "2015-12",
+  "gap_start": "2004-01",
+  "gap_end": "2005-12",
+  "gap_end_is_inclusive": true,
+  "gap_position": "interior",
+  "units": "arbitrary synthetic flow units",
+  "target_column": "target",
+  "donor_columns": [
+    "donor_1",
+    "donor_2",
+    "donor_3",
+    "donor_4",
+    "donor_5",
+    "donor_6",
+    "donor_7",
+    "donor_8"
+  ],
+  "truth_usage": "Post-decision validation only; never a reconstruction or diagnostic input.",
+  "sparse_variant": "Every third outside-gap target month remains visible, so no fully observed 24-month historical window exists.",
+  "probability": "A separately trained and calibrated model is required. No success probability is invented for this synthetic input."
+}

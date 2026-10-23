@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gsim-gap-diagnostic"
+version = "1.0.0"
+description = "Within-station pseudo-gap diagnosis of monthly streamflow recoverability"
+requires-python = ">=3.12"
+dependencies = ["numpy>=2.3,<3", "pandas>=2.3,<4", "scipy>=1.17,<2", "scikit-learn>=1.8,<2"]
+
+[project.optional-dependencies]
+xgboost = ["xgboost==3.0.5"]
+neural = ["torch>=2.8,<3"]
+test = ["pytest>=8"]
+
+[project.scripts]
+gsim-gap = "gsim_gap_diagnostic.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

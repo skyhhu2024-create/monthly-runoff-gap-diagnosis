@@ -1,0 +1,27 @@
+Data license and attribution
+
+The accompanying data and GSIM-derived numerical examples are distributed under
+Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0).
+License: https://creativecommons.org/licenses/by-sa/3.0/
+Legal code: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+Attribute this study's authors for the diagnosis, derived results, and release
+organization, and the following original GSIM providers for their monthly
+indices and station metadata:
+
+Gudmundsson, Lukas; Do, Hong Xuan; Leonard, Michael; Westra, Seth (2018):
+The Global Streamflow Indices and Metadata Archive (GSIM) - Part 2:
+Time Series Indices and Homogeneity Assessment [dataset]. PANGAEA.
+https://doi.org/10.1594/PANGAEA.887470
+
+Do, Hong Xuan; Gudmundsson, Lukas; Leonard, Michael; Westra, Seth (2018):
+The Global Streamflow Indices and Metadata Archive - Part 1:
+Station catalog and Catchment boundary [dataset]. PANGAEA.
+https://doi.org/10.1594/PANGAEA.887477
+
+Changes: extraction of monthly MEAN for January 1995–December 2015,
+calendar alignment, missingness masks, target/donor selection, reconstruction,
+historical pseudo-gap evaluation, probability calibration and derived summaries.
+The release contains monthly GSIM indices, not the underlying daily-provider
+discharge archive. Retain source citations and identify changes when reusing
+or redistributing adapted data. The software code is separately MIT licensed.

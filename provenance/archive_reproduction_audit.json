@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "full_replay": {
+    "status": "PASS",
+    "rows_checked": 81520,
+    "checks": [
+      {
+        "event": "original_event",
+        "algorithm": "idw",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 5.0182080713057076e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "original_event",
+        "algorithm": "ridge",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 3.4416913763379853e-15,
+        "decisions_exact": true
+      },
+      {
+        "event": "original_event",
+        "algorithm": "rf",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 1.5432100042289676e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "original_event",
+        "algorithm": "extratrees",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 4.2521541843143495e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "original_event",
+        "algorithm": "xgboost",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 8.881784197001252e-15,
+        "decisions_exact": true
+      },
+      {
+        "event": "seasonal_event",
+        "algorithm": "idw",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 2.9753977059954195e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "seasonal_event",
+        "algorithm": "ridge",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 2.3647750424515834e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "seasonal_event",
+        "algorithm": "rf",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 1.687538997430238e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "seasonal_event",
+        "algorithm": "extratrees",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 3.785860513971784e-14,
+        "decisions_exact": true
+      },
+      {
+        "event": "seasonal_event",
+        "algorithm": "xgboost",
+        "n_registered": 8152,
+        "probability_max_absolute_error": 8.215650382226158e-15,
+        "decisions_exact": true
+      }
+    ]
+  },
+  "additional_checks": [
+    {
+      "event": "original_event",
+      "full_refit_rows": 40760,
+      "max_probability_error": 9.170442183403793e-14,
+      "adoption_exact": true
+    },
+    {
+      "event": "seasonal_event",
+      "full_refit_rows": 40760,
+      "max_probability_error": 5.728750807065808e-14,
+      "adoption_exact": true
+    },
+    {
+      "H_RF_fold1_rows": 1617,
+      "probability_max_absolute_error": 1.1102230246251565e-16,
+      "adoption_exact": true
+    },
+    {
+      "paired_reduction_same_donor_matrix": true,
+      "conditional_target_dates_exact": true
+    }
+  ],
+  "registered_archive_case_reconstruction": {
+    "case_id": "info1:BR_0001891:interior:L24:s052",
+    "algorithm": "rf",
+    "hist_NSE_median_exact": true,
+    "hist_R_median_exact": true,
+    "source": "Monthly GSIM calendar -> nearest100 -> original pseudo-gap pipeline"
+  },
+  "optional_neural": "Original module preserved and bytecode compilation checked; no new neural fitting or numerical parity claim in this release."
+}

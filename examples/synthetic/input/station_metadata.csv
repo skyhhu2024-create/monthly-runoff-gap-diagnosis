@@ -1,0 +1,10 @@
+station_id,latitude,longitude
+target,45.0,10.0
+donor_1,45.03,10.04
+donor_2,45.06,10.08
+donor_3,45.09,10.12
+donor_4,45.12,10.16
+donor_5,45.15,10.2
+donor_6,45.18,10.24
+donor_7,45.21,10.28
+donor_8,45.24,10.32

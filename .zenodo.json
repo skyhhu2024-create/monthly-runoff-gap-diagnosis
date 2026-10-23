@@ -1,0 +1,63 @@
+{
+  "title": "Monthly streamflow gap recoverability diagnosis — method implementation",
+  "upload_type": "software",
+  "description": "Portable method implementation, frozen JSON diagnostic models, and reproducible real and synthetic cases for Diagnosing the recoverability of monthly streamflow gaps using within-station pseudo-gaps. Large study results are distributed separately as the data release.",
+  "creators": [
+    {
+      "name": "Chen, Mingrui",
+      "affiliation": "State Key Laboratory of Water Disaster Prevention, Hohai University, Nanjing 210098, China.; State Key Laboratory of Water Cycle and Water Security, Beijing 100038, China.; College of Hydrology and Water Resources, Hohai University, Nanjing 210098, China.; China Institute of Water Resources and Hydropower Research, Beijing 100038, China."
+    },
+    {
+      "name": "Yong, Bin",
+      "affiliation": "State Key Laboratory of Water Disaster Prevention, Hohai University, Nanjing 210098, China.; College of Hydrology and Water Resources, Hohai University, Nanjing 210098, China."
+    },
+    {
+      "name": "Liao, Weihong",
+      "affiliation": "State Key Laboratory of Water Cycle and Water Security, Beijing 100038, China.; China Institute of Water Resources and Hydropower Research, Beijing 100038, China."
+    },
+    {
+      "name": "Li, Haichen",
+      "affiliation": "State Key Laboratory of Water Cycle and Water Security, Beijing 100038, China.; China Institute of Water Resources and Hydropower Research, Beijing 100038, China."
+    },
+    {
+      "name": "Dai, Wei",
+      "affiliation": "State Key Laboratory of Water Cycle and Water Security, Beijing 100038, China.; China Institute of Water Resources and Hydropower Research, Beijing 100038, China."
+    },
+    {
+      "name": "Wang, Jia",
+      "affiliation": "School of Ocean Energy, Tianjin University of Technology, Tianjin 300384, China."
+    },
+    {
+      "name": "Wang, Hao",
+      "affiliation": "State Key Laboratory of Water Cycle and Water Security, Beijing 100038, China.; China Institute of Water Resources and Hydropower Research, Beijing 100038, China."
+    }
+  ],
+  "publication_date": "2026-10-23",
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "monthly streamflow",
+    "gap filling",
+    "recoverability diagnosis",
+    "historical pseudo-gaps",
+    "GSIM",
+    "selective acceptance"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1594/PANGAEA.887470",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1594/PANGAEA.887477",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    }
+  ],
+  "references": [
+    "Do et al. (2018), https://doi.org/10.5194/essd-10-765-2018",
+    "Gudmundsson et al. (2018), https://doi.org/10.5194/essd-10-787-2018"
+  ]
+}

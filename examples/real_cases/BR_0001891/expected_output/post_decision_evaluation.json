@@ -1,0 +1,16 @@
+{
+  "purpose": "Evaluation of an artificial gap after predictions and decisions have been saved. This is not diagnostic input.",
+  "score": {
+    "R": 0.9540468581108347,
+    "NSE": 0.8719874718574405,
+    "evaluable": true,
+    "model_available": true,
+    "pass_R": 1,
+    "pass_joint": 1,
+    "evaluation_status": "evaluable",
+    "target_variance": 62.09138106510529,
+    "prediction_variance": 35.78940785108444,
+    "R_defined": true,
+    "NSE_defined": true
+  }
+}

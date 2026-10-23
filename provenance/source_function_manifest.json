@@ -1,0 +1,303 @@
+{
+  "version": "1.0",
+  "sources": [
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/shared_inputs.py",
+      "symbol": "*",
+      "source_file_sha256": "67c4d9df010a0d4d3cc580d0941f51bf2622e5c4895e60c3b12336bba775933c",
+      "adaptation": "byte-for-byte source text"
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "SALT",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "27c84c3d4b3086948a20c26b6e9c9bae1b98e88a149a1a4352e30b65d96894e5",
+      "source_lines": [
+        15,
+        15
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_hash",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "d504d8e14dbe1aff1e386f5d3a51ab3d4520739b57ad101184ba65bdbfbf7898",
+      "source_lines": [
+        18,
+        19
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_inputs",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "0a9d8feaf6f313744d2448251ec96f5f6464750f2e8858543e28fb9ea8784876",
+      "source_lines": [
+        22,
+        31
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "make_replay",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "edf006e37ab0951668f8b90c87f6d9f57935b4b0444e8de928b946e1dda1e1d3",
+      "source_lines": [
+        34,
+        60
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_mean_paired",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "9707e70d13535b1bdeec8553186106cfad6f95c6a69d1b79c4813f3f4443e0c4",
+      "source_lines": [
+        63,
+        66
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_coverage",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "7179fdb2a4bd7e173ebd846d990c83c031cdb3749f341b368b4525a09289d1c3",
+      "source_lines": [
+        69,
+        70
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_relative_difference",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "7561b1c9e337a65016ff1ffe9b32fd29c46e0d7e82991a7bda419af7951846f8",
+      "source_lines": [
+        73,
+        74
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "_greedy",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "6c640ce640359d1c49aae5167e116b56e3fe305fed608653fd142e7868e88da8",
+      "source_lines": [
+        77,
+        84
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/window_matching.py",
+      "symbol": "select_windows",
+      "source_file_sha256": "28594a6e87897df8130bac630f305238c59631607fa91df942ac1e19db949310",
+      "source_symbol_sha256": "5bbdd47c47a911ffcadc78b08ca19f5ce3c24e24f1145f885bc1c5b54ac5003c",
+      "source_lines": [
+        87,
+        147
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/context_replay_v2.py",
+      "symbol": "VERSION",
+      "source_file_sha256": "912a78e2cecae10716b54d96381c247a651b37ad29f7110205968ec24b7aeb3e",
+      "source_symbol_sha256": "45a83d4098b18057968c8c48348d797df0b9c851ac4db5d1311c9b1b5bdd234f",
+      "source_lines": [
+        13,
+        13
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/context_replay_v2.py",
+      "symbol": "prepare_history",
+      "source_file_sha256": "912a78e2cecae10716b54d96381c247a651b37ad29f7110205968ec24b7aeb3e",
+      "source_symbol_sha256": "87c5a62fb0dda96e19201417670b2f01cb10fd624b7e7decca3902e380741b3d",
+      "source_lines": [
+        16,
+        55
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/context_replay_v2.py",
+      "symbol": "input_differences",
+      "source_file_sha256": "912a78e2cecae10716b54d96381c247a651b37ad29f7110205968ec24b7aeb3e",
+      "source_symbol_sha256": "85d7e7716738b103f8ec86901ad8c17f7cdad1219a1a2e0006b0512efbf8895d",
+      "source_lines": [
+        58,
+        71
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/run_classical.py",
+      "symbol": "DEFAULT_ALGORITHMS",
+      "source_file_sha256": "e55a5363eba907187616a419983eb94060d412d4b97a9671ce830af63b064494",
+      "source_symbol_sha256": "d0fbed00c0e6215750285d2a0fe6d9096ae69f9c27a4022c6efe2a3d16339efc",
+      "source_lines": [
+        24,
+        24
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/run_classical.py",
+      "symbol": "PARAMETERS",
+      "source_file_sha256": "e55a5363eba907187616a419983eb94060d412d4b97a9671ce830af63b064494",
+      "source_symbol_sha256": "6c22c1ee5499e14b03d80d08b399638b6afea23acecaccaffb4388be41f3b10f",
+      "source_lines": [
+        25,
+        29
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/run_classical.py",
+      "symbol": "fit_classical",
+      "source_file_sha256": "e55a5363eba907187616a419983eb94060d412d4b97a9671ce830af63b064494",
+      "source_symbol_sha256": "57397365e3904618a8def47f203baf93a4dc3ef4565b602621ba05301fec6452",
+      "source_lines": [
+        32,
+        61
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/prepare_cases.py",
+      "symbol": "score_truth",
+      "source_file_sha256": "47dee95886a63f39d9dd4e2aef3f901eca20760331270535118426779a60f574",
+      "source_symbol_sha256": "bf867425e22c6a88d129687bcde1779bf7f87865ba4f417a9edb266a27d4523f",
+      "source_lines": [
+        214,
+        231
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/prepare_cases.py",
+      "symbol": "history_summary",
+      "source_file_sha256": "47dee95886a63f39d9dd4e2aef3f901eca20760331270535118426779a60f574",
+      "source_symbol_sha256": "d4b58cb74a8e13483e1215b80606af357721cfb3b907ebb4e2608c88bb39e45a",
+      "source_lines": [
+        234,
+        242
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "as_bool",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "a18120619d7dfda98fd77e764f9706743800142989f61b648fe475816d0e07d7",
+      "source_lines": [
+        55,
+        59
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "valid_labels",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "f38a81b5af5e8dff44ee40b671d021c7c40cc5355acafdc2f5f7e7cef9182ba5",
+      "source_lines": [
+        62,
+        66
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "weights",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "e2e07992823c47fdc2fffd041b325968efdd57558aa72d8341f31377fe1e54da",
+      "source_lines": [
+        69,
+        72
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "design",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "0f66febf6149251f9481e00549c9f21e71127c5d27fdfed5cb5871cb5897ea22",
+      "source_lines": [
+        75,
+        78
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "logit",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "301ee294387c62c4b7105515ddbfb3d876903fc6671a1e54db70c8cad3764e9c",
+      "source_lines": [
+        81,
+        83
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "raw_probability",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "2fb508975b38335e949e3ee7849fbc59913df3bb61068d0bdef6366efdc23a1c",
+      "source_lines": [
+        86,
+        88
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "predict",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "21ed91811add6911d500d4cee83b733dfaa86135203cade4c2a69a61409c485f",
+      "source_lines": [
+        91,
+        98
+      ]
+    },
+    {
+      "original_file": "gap_information_transfer_20261013/calibration_transfer.py",
+      "symbol": "fit_model",
+      "source_file_sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e",
+      "source_symbol_sha256": "e93d00f4cb61ba9c182fb4c5e79630f29df6b29f7a03b692f9ce0de7736f061d",
+      "source_lines": [
+        101,
+        128
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_algorithm_robustness_20261014/neural_models.py",
+      "symbol": "*",
+      "source_file_sha256": "835fcd0bf65898b23ae075d47dae56c40cbc7dd205e6d317bb2cb1788e6ed37f",
+      "adaptation": "byte-for-byte optional supplementary implementation; lazy import only"
+    },
+    {
+      "original_file": "gap_diagnostic_information_upgrade_20261014/register_spatial_cv.py",
+      "symbol": "SALT",
+      "source_file_sha256": "01ed26df4790bdb3e364603555bc37605f83da2b10c6f05de6a50841e28c0208",
+      "source_symbol_sha256": "07fc3671492ff88b27f6847d88ae4d71f53d89ab2194a0cf2428ca1424dbe84c",
+      "source_lines": [
+        21,
+        21
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_information_upgrade_20261014/register_spatial_cv.py",
+      "symbol": "assign_blocks",
+      "source_file_sha256": "01ed26df4790bdb3e364603555bc37605f83da2b10c6f05de6a50841e28c0208",
+      "source_symbol_sha256": "8c8daa42486ddc184d6366904b28e55ed508dfb06ac9179fc57027ec85b31303",
+      "source_lines": [
+        59,
+        65
+      ]
+    },
+    {
+      "original_file": "gap_diagnostic_information_upgrade_20261014/upgrade_models.py",
+      "symbol": "roles_for_fold",
+      "source_file_sha256": "3e1b2718d7da363ea3af46bf6bbc1e10367418849adedbba8b674fe9f099ad05",
+      "source_symbol_sha256": "ea37ef5b0b144e52f257423111da27d1bab863a51786035ebeadf567a60e226b",
+      "source_lines": [
+        195,
+        197
+      ]
+    }
+  ],
+  "method_adaptations": {
+    "M": "TRAIN isotonic original fit and CAL85/80 policy, exported as inert JSON knots",
+    "H": "original fit_model/predict scientific functions retained; strict input adapter added",
+    "events": "original_event: R>=0.7 AND NSE>=0.5; seasonal_event additionally positive skill over visible monthly climatology",
+    "scope": "Portable scientific API and CLI; original private filesystem orchestration, plots and document builders excluded."
+  }
+}

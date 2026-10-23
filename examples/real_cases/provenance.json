@@ -1,0 +1,19 @@
+{
+  "scope": "Derived scores, windows, calibrated model knots and diagnostic decisions; manuscript BR/US case subdirectories additionally provide verified public GSIM monthly MEAN inputs under CC-BY-SA-3.0, with attribution and source fingerprints in their manifests.",
+  "source_root": "Historical analysis workspace, paths relative to CEE to wrr",
+  "calendar_origin": "1995-01",
+  "indices": "zero-based start inclusive and end exclusive",
+  "method_name_in_analysis": "S_trainiso = manuscript M",
+  "sources_sha256": {
+    "gap_diagnostic_hess_revision_20261014/round7_20261022/data_application_figures/source_data/figure2_workflow.json": "7fdcad51609016fe5ed72090387dce6bfbc00c0ed8e3f0fc2f6c636db86370a6",
+    "gap_diagnostic_hess_revision_20261014/round7_20261022/data_application_figures/source_data/figure2_history_scores.csv": "3039f0358c672bf86cec3c74873a5a5c613e96d177d1a0bef4bebc9be340d6e3",
+    "gap_diagnostic_hess_revision_20261014/round7_20261022/data_application_figures/source_data/figure2_mapping.csv": "7beae04dd05f3721c8fc30906fda9e5a7fdd4d3df8ffb81c14091521bc3b489d",
+    "gap_diagnostic_hess_revision_20261014/round7_20261022/data_application_figures/source_data/figure6_example_metadata.json": "92110992a9e1338a4ffe1a59052106576293ef3474a5c7db956c5ab19aa243a4",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/utility_extensions/train_isotonic_policies.json": "5624469a15f922f2360ee9e28dc1b0345ee31d2284158ecf08f84c53ac2b2ea9",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/natural_application/natural_gap_decisions.csv.gz": "f41cff912c263a639e63976663590c9e97057d2125e39aac4c242541170f652a",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/natural_application/application_registry.csv": "b0aa1eaf1286886ab61b78476c46e7335c7226aa75d2af63b70f810e4ec5fec5",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/natural_application/private_cache/gap_25581.json": "3762effad2b9c6173ec826c6ddf9cfe0733857323899d85478a56370a0faa599",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/natural_application/private_cache/gap_28569.json": "c193178d0439fbebbe1f237c2bea298e0aec5a9cd56752c0fd4cdf82bfca840f",
+    "gap_diagnostic_hess_revision_20261014/round6_20261022/natural_application/private_cache/gap_03435.json": "8fd62ad2d57df315862d4eca83483cf0a7bdbf9f72217ebf1117055203489b65"
+  }
+}

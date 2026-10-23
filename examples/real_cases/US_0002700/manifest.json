@@ -1,0 +1,635 @@
+{
+  "data_kind": "GSIM monthly indices subset",
+  "target_station": "US_0002700",
+  "case_id": "natural:US_0002700:s69:L24",
+  "calendar_start": "1995-01",
+  "calendar_end": "2015-12",
+  "gap_start": "2000-10",
+  "gap_end": "2002-09",
+  "gap_end_is_inclusive": true,
+  "gap_start_index": 69,
+  "gap_end_exclusive_index": 93,
+  "position": "interior",
+  "algorithm": "rf",
+  "seed": 20261014,
+  "event": "original_event",
+  "outer_fold": 1,
+  "candidate_count": 100,
+  "candidate_order": "Original registered nearest-100 donor pool; preserved in CSV column order. All candidates are included because historical matching and donor reselection use the pool.",
+  "units": "m3 s-1",
+  "source_data_doi": "10.1594/PANGAEA.887470",
+  "source_metadata_doi": "10.1594/PANGAEA.887477",
+  "license": "CC-BY-SA-3.0",
+  "changes": "Selected MEAN only; reindexed to consecutive 1995-01 through 2015-12; kept last duplicate month; nonfinite values made missing; target query masked; column aliases and metadata mapping added.",
+  "current_target_truth_in_input": false,
+  "current_truth_available_for_validation": false,
+  "original_case_sha256": "3762effad2b9c6173ec826c6ddf9cfe0733857323899d85478a56370a0faa599",
+  "monthly_source_verification": [
+    {
+      "station_id": "US_0002700",
+      "monthly_source_filename": "US_0002700.mon",
+      "sha256": "ff01fb65b2f1d15acfc445c9592abe750ac2edb109f8c1739827e1722b84d808",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002701",
+      "monthly_source_filename": "US_0002701.mon",
+      "sha256": "6baaa1c9d608727d82b02af9e3c9d7b7c3ca3f8cd92ad8b8e633658931ed7d7d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002696",
+      "monthly_source_filename": "US_0002696.mon",
+      "sha256": "456b07c221e64b4bfc88ae382076b23a5287fbf7131897507b0f3545b3bb1167",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002698",
+      "monthly_source_filename": "US_0002698.mon",
+      "sha256": "59200e77f5dc50652a6fae4d2c5c7907069d33caac925ada5f967547c2bc4934",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002695",
+      "monthly_source_filename": "US_0002695.mon",
+      "sha256": "c37cd035ecf1bf0ae616c4f2cc9faae5545f328e1cbde4c6e7f53ed9f0610828",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002702",
+      "monthly_source_filename": "US_0002702.mon",
+      "sha256": "c8c88135ee233656cb5829cbea7cf0e3d693957d26f1980d72b4a1d56e8712f1",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002694",
+      "monthly_source_filename": "US_0002694.mon",
+      "sha256": "23ce400d326f4bce44a3c25617d5c63e1bed0837ee4c4e6c0ef6bac2d534afa3",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002699",
+      "monthly_source_filename": "US_0002699.mon",
+      "sha256": "e41e172e2532c0c549fddfd7b52cf8e9417956f57191a06ed5dc3136018e8653",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002709",
+      "monthly_source_filename": "US_0002709.mon",
+      "sha256": "fe08ab6a2338907e9ce4644c5e92b88ce3143b9db5d879246427482982d3a2f4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002708",
+      "monthly_source_filename": "US_0002708.mon",
+      "sha256": "f5de5d2341208ff3bf4ec6a7cd4fbd0e0b4b570fd437af9269dad377ba5d17aa",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002707",
+      "monthly_source_filename": "US_0002707.mon",
+      "sha256": "edf3e0c9500befc4d093da597248246410d13971a2e74cf5f32a738298887e0f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002716",
+      "monthly_source_filename": "US_0002716.mon",
+      "sha256": "1f5f1aae2c6dea66b343051376c00f54fd75b7f4bed25f5855edaee1c8898718",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002865",
+      "monthly_source_filename": "US_0002865.mon",
+      "sha256": "f9714c3ef302b587e1fd8b1ef08025673ef9738b218447100e939423dbb7f5ef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002714",
+      "monthly_source_filename": "US_0002714.mon",
+      "sha256": "5371c0807c09cf4df8016f66a82fa4ea99d0f60b08b6f12a7fd7ef63376309cc",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002659",
+      "monthly_source_filename": "US_0002659.mon",
+      "sha256": "2895f5376bd7ed924ee55cf214c51847631af0df16221f59a3eb89ce4dc4304d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002720",
+      "monthly_source_filename": "US_0002720.mon",
+      "sha256": "7227d68019a96d2f0316553669f4e21c302313b6f4ec5d9cdc769f7316f1f153",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002704",
+      "monthly_source_filename": "US_0002704.mon",
+      "sha256": "d8abff88fa305015f5bb4b417aefb7963138d658ce4b71499453e615d61a91a0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002725",
+      "monthly_source_filename": "US_0002725.mon",
+      "sha256": "5785b1173248a3b05d53307f30abf449a5cdfd0e30a4ea5051bc5744255b55ef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002660",
+      "monthly_source_filename": "US_0002660.mon",
+      "sha256": "3fd219079181033abd9b917d7a892bc6afa195584e017f8979d261b39f48a530",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002718",
+      "monthly_source_filename": "US_0002718.mon",
+      "sha256": "e4a2e3f1bb5de9bcfbe8b34db8e64f15447e29dce128d9c9d454ab27566040a2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002856",
+      "monthly_source_filename": "US_0002856.mon",
+      "sha256": "b2c2109ce3a2d314fa4658b0f1a4206c1e328f0a08989b659f95f44a5dbe97f4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002921",
+      "monthly_source_filename": "US_0002921.mon",
+      "sha256": "6466423ea15158bc6261474efe7b0e3a0c062383e1bccf24d5229affd81cfd95",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002723",
+      "monthly_source_filename": "US_0002723.mon",
+      "sha256": "e30eaa32df8e2600f3626a7f412980dbef18a97704bd7ecb2334468fcb195e75",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002727",
+      "monthly_source_filename": "US_0002727.mon",
+      "sha256": "10cf79a9920794dff830b2a6568b75e226c423d7e52318b8b2e819d2b3a14cd6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003592",
+      "monthly_source_filename": "US_0003592.mon",
+      "sha256": "2d36ec5ae2dd65ed5283653b030b17dcf11423c69965309b220c5a28225957cf",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002664",
+      "monthly_source_filename": "US_0002664.mon",
+      "sha256": "a007568d5ef2401bca7f516ac907c278632b6787b3374beaabab200fba9ce64f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002622",
+      "monthly_source_filename": "US_0002622.mon",
+      "sha256": "69fbcb12c94547e535372a8a4ba71debb491515e9085cca1719f0d0ee8d07095",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002666",
+      "monthly_source_filename": "US_0002666.mon",
+      "sha256": "529ed2c54346433b1106efb3139dc19a57ae49a53cc4d6c631ef23134247bb75",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002640",
+      "monthly_source_filename": "US_0002640.mon",
+      "sha256": "85d89c4b19bb90c83e91dcbe2229b81b8ab6a00de6576b56fc085b56d95ba9c2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002862",
+      "monthly_source_filename": "US_0002862.mon",
+      "sha256": "16b9d5eaddfeb6ffe20931bf63b8f3f92e073d7c2dced00e349d0972ea801abe",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002621",
+      "monthly_source_filename": "US_0002621.mon",
+      "sha256": "831ff9f6567470fd5e7d05d7e7bac2a4f1d95457f10b93f7bff8464a463434b1",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002623",
+      "monthly_source_filename": "US_0002623.mon",
+      "sha256": "77cf78f7e78d6b4c6ad821b8a8f8270a27cb0944c21182b758cd1482a1200836",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002638",
+      "monthly_source_filename": "US_0002638.mon",
+      "sha256": "b360b78ba84b6dfbdb05a16314758d3a16f2597cc9718078a617a5162498cc3f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003585",
+      "monthly_source_filename": "US_0003585.mon",
+      "sha256": "ac34290e0400f4011d85596da41780b2c62a5e0ac94ac428c140f01b361ab148",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002867",
+      "monthly_source_filename": "US_0002867.mon",
+      "sha256": "58dddde1f77e4ad973dfaf8f98e8c3bd97cc6fe946d34a3efdf30515303355f2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002628",
+      "monthly_source_filename": "US_0002628.mon",
+      "sha256": "834526b39f141d589b3fb82156823a2217b64f93918b2d91be158f2ba1781d2b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002627",
+      "monthly_source_filename": "US_0002627.mon",
+      "sha256": "159593ab145d0bb89cce26081ae19c56804599c530468e2b998bdc9419bcd358",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003587",
+      "monthly_source_filename": "US_0003587.mon",
+      "sha256": "1a2b8ba8f205a621dd724debb861a9a2c4de82e6a4d70ba07f0b43daaa856024",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002644",
+      "monthly_source_filename": "US_0002644.mon",
+      "sha256": "899de68c453ae121151bb375fb6d74f2d0d45a8a811c910a8a9867b815387839",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002639",
+      "monthly_source_filename": "US_0002639.mon",
+      "sha256": "40204c353f2e411ebaa5b56a21aa97b336facd431c57c5473d78ca44ac64cef4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002860",
+      "monthly_source_filename": "US_0002860.mon",
+      "sha256": "122344a7a92ba28b5f3867dbf7523186ddc7568aff2a8bf77dab8e924c03ed7e",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002629",
+      "monthly_source_filename": "US_0002629.mon",
+      "sha256": "47b0576915b86842b87caf3236fc2e43134cc97abe5241f81e09365a0a971328",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003598",
+      "monthly_source_filename": "US_0003598.mon",
+      "sha256": "02f3acfbc6fb3f2dcb7066ecc341eb4af4a7523664bb3adef6959ef9c0b965d0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002940",
+      "monthly_source_filename": "US_0002940.mon",
+      "sha256": "4794b68fa387aa99b627d92ec92f6d0c8a35e20b2f72096d32794891ab6c6a38",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002633",
+      "monthly_source_filename": "US_0002633.mon",
+      "sha256": "67c1f6d82f8debf79f104ff4e8b26d8b776156f8141d2c246dce47b998e3cec0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003599",
+      "monthly_source_filename": "US_0003599.mon",
+      "sha256": "6888201b54efaa5c0e142369215d416aaa8c6735c80b7d7d18e344d1353e5815",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002978",
+      "monthly_source_filename": "US_0002978.mon",
+      "sha256": "865179c0ef0454f4027a7ae60b69f300eeedf285defdc12ed40ca658e6baaefa",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002635",
+      "monthly_source_filename": "US_0002635.mon",
+      "sha256": "7f7bf985160a39ff379f1dc678051c85b2d7fe99ff896756794faa470a690241",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003606",
+      "monthly_source_filename": "US_0003606.mon",
+      "sha256": "e8246228e9c574bd34646cc365a483db3b7eba902d071b866511399f02f36371",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003582",
+      "monthly_source_filename": "US_0003582.mon",
+      "sha256": "2a5c719e92f264c78ef790c1ae7888771cc573dd23ac34a780e415dae694941f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002973",
+      "monthly_source_filename": "US_0002973.mon",
+      "sha256": "eb6d9e96230f7072d11b5465c91e2765083f9e532147ff24742aed51cfd6f258",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002631",
+      "monthly_source_filename": "US_0002631.mon",
+      "sha256": "fec8afe7568690381fea40b54d5a5c323f4aec0154e60ce36f2b4f6cd3db7175",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002970",
+      "monthly_source_filename": "US_0002970.mon",
+      "sha256": "a4408310d1618159bf2e931c09a462b84047e692d7b48e6e20d875e883e64c51",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002885",
+      "monthly_source_filename": "US_0002885.mon",
+      "sha256": "079b0fcd611b49b457f72fce72ec4a812898e192eca9d58b0650cf3a51375f3a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002646",
+      "monthly_source_filename": "US_0002646.mon",
+      "sha256": "54ab63324cab8f066b11eb6e7dfc7dec475c26de139f9449fbf57f6014248ca0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003600",
+      "monthly_source_filename": "US_0003600.mon",
+      "sha256": "045f5b5bd18d68706aff84500a29d5347df1145b00be6542f3072042b9c18130",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002935",
+      "monthly_source_filename": "US_0002935.mon",
+      "sha256": "4bb26f28492cfbc7e16fdb4e9c8d1fb3e665e55ff6c50d8ae543ea110d0cf860",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002630",
+      "monthly_source_filename": "US_0002630.mon",
+      "sha256": "2b5193857b51b753f7054e9119f611950f8b93ae9b47c12b35d11ab660f5ca6d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002929",
+      "monthly_source_filename": "US_0002929.mon",
+      "sha256": "047673e19627b6138f1b043da501ee150fa09b794e461e5a382c40dd0371ee34",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003581",
+      "monthly_source_filename": "US_0003581.mon",
+      "sha256": "aebbb7730a3647b0a7980f25fc74db5b06c53f27ad2afd0e1c62d2023691a3ef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002974",
+      "monthly_source_filename": "US_0002974.mon",
+      "sha256": "88fa74ace25aea30576052a3dc69c375a85783b04bd80f35d40092962bbb210d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002864",
+      "monthly_source_filename": "US_0002864.mon",
+      "sha256": "7498de25d6eef6ccafddc1c27fe1c9a487caf11c10c42686e981d64ae865e0f6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002982",
+      "monthly_source_filename": "US_0002982.mon",
+      "sha256": "58b7af139444058eec4a7125eea4724a5feb81be631445d6a77fa5958afddfad",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003604",
+      "monthly_source_filename": "US_0003604.mon",
+      "sha256": "56dcc7ef91d4df8d91429815914e68069c4f0da89307251e95874733c9992eb2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002944",
+      "monthly_source_filename": "US_0002944.mon",
+      "sha256": "5b52a8695cca8fce8bdf3142e81235214bbf1ff1c6ff776421ec49f2736cc391",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002941",
+      "monthly_source_filename": "US_0002941.mon",
+      "sha256": "feec5ddcf77c1af8ef1e4e1ce32bb909b2a886009fc53702dc2b47bc0ea0a55a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002936",
+      "monthly_source_filename": "US_0002936.mon",
+      "sha256": "80ea43c7fb4465eaa94417cf8ea64bb13336c914626646aa41201dd09323e5ca",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003577",
+      "monthly_source_filename": "US_0003577.mon",
+      "sha256": "b0af3df95d8daed0fd01fabfede943d83a35bd71609f5370628f4e7389b05a54",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002987",
+      "monthly_source_filename": "US_0002987.mon",
+      "sha256": "a2bd67dc286ca375ff287db62cbb2838c611dec40bc7d6fdf9c8796cb7ed2085",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002953",
+      "monthly_source_filename": "US_0002953.mon",
+      "sha256": "548b72d94ddbe31f1e4536dc7ec31f02d9401049dcf6a9d92c127e529894608a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002643",
+      "monthly_source_filename": "US_0002643.mon",
+      "sha256": "0989b1d113dfecf25d1b7ccf22561c64ffdb53350d58e31f1010e0fddca5096f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003608",
+      "monthly_source_filename": "US_0003608.mon",
+      "sha256": "4db160270968f18323372124c6fc9ddc566f14f76da204adae202241d4ffc475",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002870",
+      "monthly_source_filename": "US_0002870.mon",
+      "sha256": "4d12582810f074d1b6301d9490909484d11599dc689ab90837ac6d09e082ffe4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002648",
+      "monthly_source_filename": "US_0002648.mon",
+      "sha256": "f7256fd132b0f542e7270a3a6e4a95bbdb5c23049ec4276c5581105c9715a9a0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002887",
+      "monthly_source_filename": "US_0002887.mon",
+      "sha256": "886488d52e9c1db4db7db31bfd3696a5da2fdbe51b851ce0717a4d99d7d2d041",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002777",
+      "monthly_source_filename": "US_0002777.mon",
+      "sha256": "20df7d5c7cd087ad5e2fcb52470b570db31250f06a29b09541342bf3350a6c54",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002943",
+      "monthly_source_filename": "US_0002943.mon",
+      "sha256": "6d4eae7c678ef889f6c3794bbf36a4020771de712e27963132fac2e945b10f8b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002938",
+      "monthly_source_filename": "US_0002938.mon",
+      "sha256": "213e85d4ce7b510d30b8c3cb2817630bc0a310eaf04bc67ff9863a6c63e1c5c6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002975",
+      "monthly_source_filename": "US_0002975.mon",
+      "sha256": "95a90aee06762571d19775cdf5471ae3a1086b86bfc2b3a36024c4fc2f25590f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003609",
+      "monthly_source_filename": "US_0003609.mon",
+      "sha256": "4d19f3ad5a1b9b52574d5c00175938ef53a3304dfb43cf0711bbf800988c4dc4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002683",
+      "monthly_source_filename": "US_0002683.mon",
+      "sha256": "c23c82b24d67f62f08a992df95f65a70ebfd6258946723bc698c99e109925983",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003590",
+      "monthly_source_filename": "US_0003590.mon",
+      "sha256": "21f3cc9e6cb1bc51f4761a24289452dca5b446ddad68caf412ad1ba044ca81e9",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002868",
+      "monthly_source_filename": "US_0002868.mon",
+      "sha256": "6eb28be92cf9df67bbb4133cfdf82e7f63e67b60d77eebc22012b32f3df00721",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002947",
+      "monthly_source_filename": "US_0002947.mon",
+      "sha256": "cd08e00aa986cc28ce80eb6cd11cee1eb451ef403d0e70dba360882b8754faeb",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002952",
+      "monthly_source_filename": "US_0002952.mon",
+      "sha256": "f79d3954a2dd0fa37ec9a1e14f005c048118b99a26fd6c0713a10b6468f601e9",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002951",
+      "monthly_source_filename": "US_0002951.mon",
+      "sha256": "741f501211af58d528564af00e04848139e8e4482923c06b39a4647c137187f8",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002976",
+      "monthly_source_filename": "US_0002976.mon",
+      "sha256": "bc7613590b34c050f82f0549eae9682e19e95cd95928a0a4237be8fe3de95a28",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002954",
+      "monthly_source_filename": "US_0002954.mon",
+      "sha256": "e25d3f2b9fc33360af9d5bc73f90875976df27e09acd2bdd55cc884530f4a617",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002950",
+      "monthly_source_filename": "US_0002950.mon",
+      "sha256": "9d4b3fe81a02719b3ebbe10635bdc6f48f5ed7787c498dcbb2bc461ba91d0480",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002979",
+      "monthly_source_filename": "US_0002979.mon",
+      "sha256": "cae5614d69ce03752f74bf7df01e14aa057f3ef258ee3dfc6321bcbb3942b846",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002989",
+      "monthly_source_filename": "US_0002989.mon",
+      "sha256": "6e41f0f646388c28c1ddf143f3c9bea6f20abc45188f09c1bc0fda59ef16c2ae",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002980",
+      "monthly_source_filename": "US_0002980.mon",
+      "sha256": "2e7d1dd49212a96e5bc264d15a7818a35f628437b60b5beb56e0e25a3abb5eea",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003576",
+      "monthly_source_filename": "US_0003576.mon",
+      "sha256": "94150b8c4629203efe392d29bd9f10141df72c608b6a9a7619225c96dd3524c1",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002649",
+      "monthly_source_filename": "US_0002649.mon",
+      "sha256": "6c9526335f31f3136d5602f1f5c3478c81579539365d8bff00e7cb78fe56f82b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003601",
+      "monthly_source_filename": "US_0003601.mon",
+      "sha256": "949b840f8f1d7469f7fc6eb0be6eb2fb99f698895affa01877230a38eb3f9242",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002506",
+      "monthly_source_filename": "US_0002506.mon",
+      "sha256": "03f99f99d3ebf28526aaf9c6ac5e7e026a5f7e5970752f5973b996a18b6e5bc5",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002493",
+      "monthly_source_filename": "US_0002493.mon",
+      "sha256": "d69ecc9431e21d71f3ca7a05510f345554b8741ddabb977f37aacd827b23ff85",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002524",
+      "monthly_source_filename": "US_0002524.mon",
+      "sha256": "e29e3e8d772074e7f4c237c747c8ea4ec0a3ba22ab67c82eae0e497a29601fbf",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002654",
+      "monthly_source_filename": "US_0002654.mon",
+      "sha256": "75c0ec29495bc3f46700836d6d1f5ab73fe4385dadb624818966c086fd68928d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0002678",
+      "monthly_source_filename": "US_0002678.mon",
+      "sha256": "6bb3de848fec47164d7a02eed8ca0815c036277df9af1011481cf1637ee493f0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "US_0003610",
+      "monthly_source_filename": "US_0003610.mon",
+      "sha256": "59ddcaff6d95466e18b26459416deb1686ab695f208d255a440375261827f38b",
+      "calendar_cache_MEAN_match": true
+    }
+  ]
+}

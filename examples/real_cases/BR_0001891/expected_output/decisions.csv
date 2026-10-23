@@ -1,0 +1,2 @@
+case_id,station_id,block,algorithm,seed,hist_window_count,hist_valid_count,hist_NSE_median,diagnostic_available,method,event,probability,eligible,adopted,threshold,decision,calibration_target_unmet
+info1:BR_0001891:interior:L24:s052,BR_0001891,-5_-9,rf,20261014,4,4,0.8978947199900864,True,M,original_event,0.953757225433526,True,True,0.4584264749367909,accept,False

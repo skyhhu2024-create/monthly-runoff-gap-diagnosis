@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "study_calendar": {"start": "1995-01", "end": "2015-12", "months": 252},
+  "donor_pool": {"minimum_native_coverage": 0.9, "nearest_candidates": 100, "maximum_active_donors": 8, "minimum_paired_months": 6, "positive_raw_correlation_required": true},
+  "history": {"maximum_windows": 4, "same_length_as_current_gap": true, "within_group_nonoverlap": true, "selection": "matched mask-only distance; fixed SHA tie order", "replay": "current donor missingness over full12-month predictor footprint"},
+  "features": {"sequence_months": 12, "monthly_channels": 28, "flattened_features": 336, "target_values_as_predictors": false},
+  "diagnosis": {"primary_method": "M", "M": "Historical NSE median -> increasing TRAIN isotonic -> independent CAL policy", "H": "Six historical summaries -> TRAIN spline logistic -> CAL Platt -> CAL policy", "calibration_precision_target": 0.85, "calibration_success_recall_target": 0.8, "missing_evidence_probability": null},
+  "events": {"original_event": {"R_min": 0.7, "NSE_min": 0.5}, "seasonal_event": {"R_min": 0.7, "NSE_min": 0.5, "climatology_skill_min_exclusive": 0}},
+  "seeds": [20261014, 20261015, 20261016],
+  "primary_seed": 20261014,
+  "classical_algorithms": ["idw", "ridge", "rf", "extratrees", "xgboost"],
+  "supplementary_neural_frozen": {"lstm": {"hidden_size": 32, "epochs": 50}, "tcn": {"hidden_size": 16, "epochs": 50}, "learning_rate": 0.01, "weight_decay": 0.0001, "gradient_clip": 5.0},
+  "note": "These document frozen defaults. They are not a free hyperparameter search configuration; scientific constants live in the retained source functions."
+}

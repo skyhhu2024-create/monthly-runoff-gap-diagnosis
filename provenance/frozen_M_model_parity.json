@@ -1,0 +1,408 @@
+{
+  "status": "PASS",
+  "models": 50,
+  "predictions_checked": 81520,
+  "checks": [
+    {
+      "model": "M_original_event_idw_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 5.0182080713057076e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "79d806cdcbf6423afde774de260ff1fc9426f66689a8442d39403e9e2cca5294"
+    },
+    {
+      "model": "M_original_event_idw_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 3.885780586188048e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "0dfbbae35bfb63e6f98b59d09be75aea726a789cb43a105d695b986b71ff94f1"
+    },
+    {
+      "model": "M_original_event_idw_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 2.4980018054066022e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "b3a7ccb51bdfeec599dd18e44ec63729a585af49b4eff781d76eb1329bceee6e"
+    },
+    {
+      "model": "M_original_event_idw_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 8.271161533457416e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "dd2b2bf5a104c2bfd2d4a273a9dba23988a8c90a23c8c13c38bb76d3d62cee51"
+    },
+    {
+      "model": "M_original_event_idw_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 1.734723475976807e-16,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "d8d0c1eb4907d4ad7bfd90193887044869d46059a89a29cc8cbcbab2c08bb648"
+    },
+    {
+      "model": "M_original_event_ridge_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 2.9976021664879227e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "5d05e09c0269891e7e657f7b2222c694ea245c253b34e9acd2aa4b8f078b02b0"
+    },
+    {
+      "model": "M_original_event_ridge_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 3.4416913763379853e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "ba0994cc8a5aa80e2c0a5b2637d95d081af3fa16cc8b8126762f03ba56ab2bae"
+    },
+    {
+      "model": "M_original_event_ridge_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 1.4432899320127035e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "6f39b51b8c62009521ead4789f6d951373a7d260e6e00293fa5c6214d4691778"
+    },
+    {
+      "model": "M_original_event_ridge_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 1.6653345369377348e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "79fdc911a81aa025151cf1f225e2fbfd1d770d88aeeeb578ed7709ab9c723f1f"
+    },
+    {
+      "model": "M_original_event_ridge_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 1.1102230246251565e-16,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "6cf47f0fa216e883074167934068f995a58b6aad95ddceedea900c3831536f6c"
+    },
+    {
+      "model": "M_original_event_rf_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 7.66053886991358e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "0ad79c48bfbe87e6a2ce4d01afe557dae60be29195f048a23689c8f18696327a"
+    },
+    {
+      "model": "M_original_event_rf_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 3.608224830031759e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "5fb405c89216332b3654e60e97cfa8bc39d8569f2e740f3295bbe059f1c30196"
+    },
+    {
+      "model": "M_original_event_rf_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 1.5432100042289676e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "b58bc016293789c6ade83211a3ecf0eb493099e28c41f7460c4f4bdd6680b2f8"
+    },
+    {
+      "model": "M_original_event_rf_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 2.4424906541753444e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "9d8d03769ce7a4a304171af25b1aa46f3c4f44b2f0edf5a9ca38d5f3f200329d"
+    },
+    {
+      "model": "M_original_event_rf_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 1.8318679906315083e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "4cef949f6ab3fffb25ec90aef381507c215c33678fa2739b74cd01cf36d2d1d6"
+    },
+    {
+      "model": "M_original_event_extratrees_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 6.661338147750939e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "92b64b28c12beb1165089bf0393028b51e90e6fae9d9d3e30c559bca6c5da278"
+    },
+    {
+      "model": "M_original_event_extratrees_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 2.886579864025407e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "a2cec438e6ff61f03cae4841e545e7a67251624581f78f45b73f9ef164645568"
+    },
+    {
+      "model": "M_original_event_extratrees_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 4.2521541843143495e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "506b95bd5f037c2430ab35ac9d377f0641b692e4b91d0d53e90c32f6d599fe98"
+    },
+    {
+      "model": "M_original_event_extratrees_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 4.218847493575595e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "7c4c48adb5aea69027024c664894cfbc9526b65872e12325b7f5ea3da04a9d23"
+    },
+    {
+      "model": "M_original_event_extratrees_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 4.163336342344337e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "81ece69f129b0f42e63412c6bcc9e7b76fbe2e891512c1a59b93d0fec1997b97"
+    },
+    {
+      "model": "M_original_event_xgboost_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 4.440892098500626e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "0ec8cf1146464eb478650fe7ef41bb1df5216c9a91c02a36576b929768160b2d"
+    },
+    {
+      "model": "M_original_event_xgboost_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 4.218847493575595e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "1457f61cb6597ab11e9c08758453e237300e324ca4f82bb277d28477e8a31a73"
+    },
+    {
+      "model": "M_original_event_xgboost_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 8.881784197001252e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "4f2d2abdb395e54a100da82becd4b5cc2669161a7e5c90d860c8aaeb4837bac6"
+    },
+    {
+      "model": "M_original_event_xgboost_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 3.774758283725532e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "69475c0c25ceaa352ac9672cabd8279c151319a4fa9e545049fb9468bef771d7"
+    },
+    {
+      "model": "M_original_event_xgboost_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 2.3869795029440866e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "d0af53e0fd22ee4235df728893c59068e8f32a373e2cd3b5c85b4be9e9ded73c"
+    },
+    {
+      "model": "M_seasonal_event_idw_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 1.7985612998927536e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "b38d1bc4b1ac85e0b345b2dd20465b56c57c1bf9e4bd24342b2fbbaf6ecaa87d"
+    },
+    {
+      "model": "M_seasonal_event_idw_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 3.9968028886505635e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "5a10e4891b08636ad1eb95100c89274f3b6aa853e3646704e718aa518cbb446c"
+    },
+    {
+      "model": "M_seasonal_event_idw_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 8.049116928532385e-16,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "126be323d239de4605333ece23d4f927e114798834e8b3c0c890a97f0cccafe2"
+    },
+    {
+      "model": "M_seasonal_event_idw_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 2.9753977059954195e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "4815690a8cd47c394469ce458a7a6961288ac017614f76f7ba8c436c740ef096"
+    },
+    {
+      "model": "M_seasonal_event_idw_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 1.3322676295501878e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "c1eed1488744f2070c791e3eb8687f2b01263088f414b00878a9d67d3e249510"
+    },
+    {
+      "model": "M_seasonal_event_ridge_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 7.216449660063518e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "f265df855cb7ea85576eb78dc53e8bac00e2baa9fbe769cdf14bfc3ff2e8a611"
+    },
+    {
+      "model": "M_seasonal_event_ridge_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 2.3647750424515834e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "7a67266ed70e94b1f6621d487b71fe1dbb2082bcaf90cd07ec17a670a6d39f47"
+    },
+    {
+      "model": "M_seasonal_event_ridge_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 3.6637359812630166e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "2e5b6e21b47fc192556cf7e29641d2a49eea529c8702f906f337eb3d2a6d7267"
+    },
+    {
+      "model": "M_seasonal_event_ridge_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 1.2628786905111156e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "e5deb28aa3cd91617f6b173835504211c8cfe886325344e374e18fbdf92885ef"
+    },
+    {
+      "model": "M_seasonal_event_ridge_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 2.1649348980190553e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "5d52cb3fc1523212a8b2724180152ca56543ba595ac6425f502f5fdd692b3f79"
+    },
+    {
+      "model": "M_seasonal_event_rf_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 1.1213252548714081e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "908f398f886bcce22e5a488d4a34782cb41d759cb4d9a5dd20a0f33000fb54d4"
+    },
+    {
+      "model": "M_seasonal_event_rf_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 3.9968028886505635e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "1d0f3b5aae9e3f9ab0feadbc0d823f895114fa27156d36a3b5702fb13a7a29a2"
+    },
+    {
+      "model": "M_seasonal_event_rf_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 1.687538997430238e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "291a0cfdabe3c1c97aed6ef5784a24c9173d4dacbe67e54a08e07a6562aadd94"
+    },
+    {
+      "model": "M_seasonal_event_rf_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 2.942091015256665e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "06d3912c230a1c6c7ca9e9f8db264d9ad19962b3ff2ae897b337bd9f9bd1f5ab"
+    },
+    {
+      "model": "M_seasonal_event_rf_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 2.3869795029440866e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "e2694fec50a39aefb8cf6599a6be8878c6df755c914642ac4d9c6d3d31c1356c"
+    },
+    {
+      "model": "M_seasonal_event_extratrees_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 3.552713678800501e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "fd86ea20e4eed53ef30ce351c2ab4f532aaa70d09b49b63784a58852ad541f93"
+    },
+    {
+      "model": "M_seasonal_event_extratrees_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 7.438494264988549e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "ce25d7d7fbec556ae85f6da0e5952304a58a769459223b72df311a6685e34ec1"
+    },
+    {
+      "model": "M_seasonal_event_extratrees_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 3.785860513971784e-14,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "d0169b1993ffbd9d2e179c4c2b812994a95acf301bb31d81f491cc3c7e208a37"
+    },
+    {
+      "model": "M_seasonal_event_extratrees_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 2.275957200481571e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "891a73a94b5023f2e5032602832ebe651a8420a1436c2ba695a1b1071d6cd347"
+    },
+    {
+      "model": "M_seasonal_event_extratrees_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 2.6645352591003757e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "2c9dbdce71a4ea67afc283cfbabc459dd869eadde6db89d5e572574edab30fa0"
+    },
+    {
+      "model": "M_seasonal_event_xgboost_fold0.json",
+      "rows": 1948,
+      "probability_max_absolute_error": 8.215650382226158e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "d392d92cbe47750558b8dfef08e6f54fc5f7bcc4a9edbab1e2d292ce4ed95791"
+    },
+    {
+      "model": "M_seasonal_event_xgboost_fold1.json",
+      "rows": 1617,
+      "probability_max_absolute_error": 1.5543122344752192e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "2738aa55bfb8668c8404fcca8ca0110b86f42085359cec5a0bfc4219b924e0e4"
+    },
+    {
+      "model": "M_seasonal_event_xgboost_fold2.json",
+      "rows": 2252,
+      "probability_max_absolute_error": 2.609024107869118e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "c2875f7bf6192a2bde51b9f062c69393526a8a0dc4f3668acd3a51f29ff304e7"
+    },
+    {
+      "model": "M_seasonal_event_xgboost_fold3.json",
+      "rows": 1232,
+      "probability_max_absolute_error": 2.7755575615628914e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "97d45be79d563491a6c011c98cf2f4291ee0355b65473c354a74741e9c71b25d"
+    },
+    {
+      "model": "M_seasonal_event_xgboost_fold4.json",
+      "rows": 1103,
+      "probability_max_absolute_error": 3.1363800445660672e-15,
+      "eligibility_exact": true,
+      "adoption_exact": true,
+      "sha256": "14cbcfb32ad167798b57af3e9884b73a0c2989f2760993f0a6dff00e395459cd"
+    }
+  ],
+  "source_probabilities_sha256": "5a4eca4d109eef0d0bc2ceaa4295722c100610da34e97b3a0d7981fff3daf19b"
+}

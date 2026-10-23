@@ -1,0 +1,134 @@
+{
+  "matched": [
+    {
+      "start": 129,
+      "end_exclusive": 153,
+      "distance": 0.05373366644974806,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    },
+    {
+      "start": 105,
+      "end_exclusive": 129,
+      "distance": 0.05373366644974806,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    },
+    {
+      "start": 21,
+      "end_exclusive": 45,
+      "distance": 0.05373366644974806,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    },
+    {
+      "start": 45,
+      "end_exclusive": 69,
+      "distance": 0.05373366644974806,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    }
+  ],
+  "unmatched": [
+    {
+      "start": 123,
+      "end_exclusive": 147,
+      "distance": 0.30373366644974803,
+      "distance_components": {
+        "season": 1.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    },
+    {
+      "start": 12,
+      "end_exclusive": 36,
+      "distance": 0.17956922272268538,
+      "distance_components": {
+        "season": 0.5,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.10833220062525484,
+        "query_donor_coverage": 0.003750000000000031
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.8,
+      "replay_gap_donor_coverage": 0.99625
+    },
+    {
+      "start": 96,
+      "end_exclusive": 120,
+      "distance": 0.17873366644974803,
+      "distance_components": {
+        "season": 0.5,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.1087399755335055,
+        "query_donor_coverage": 0.0
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 196.71,
+      "replay_gap_donor_coverage": 1.0
+    },
+    {
+      "start": 219,
+      "end_exclusive": 243,
+      "distance": 0.3199805939790852,
+      "distance_components": {
+        "season": 1.0,
+        "target_support": 0.10619469026548672,
+        "paired_support": 0.10081101898418739,
+        "query_donor_coverage": 0.07291666666666663
+      },
+      "inner_n_target": 202,
+      "inner_mean_paired_months": 198.46,
+      "replay_gap_donor_coverage": 0.9270833333333334
+    }
+  ],
+  "eligible_count": 178,
+  "equal_window_count": 4,
+  "current_n_target": 226,
+  "current_mean_paired_months": 220.71,
+  "current_gap_donor_coverage": 1.0,
+  "matched_mean_distance": 0.05373366644974806,
+  "unmatched_mean_distance": 0.24550428740031666,
+  "distance_definition": "Equal mean: month circular distance/6, relative target count, relative mean paired count, absolute gap donor coverage. Relative difference = abs(a-b)/max(a,b,1).",
+  "selection_inputs": [
+    "target finite mask",
+    "donor finite mask",
+    "query indices",
+    "calendar months",
+    "boundary position",
+    "case_id SHA"
+  ]
+}

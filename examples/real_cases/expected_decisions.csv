@@ -1,0 +1,5 @@
+case_id,station_id,algorithm,seed,probability,threshold,state,evidence_reason
+info1:BR_0001891:interior:L24:s052,BR_0001891,rf,20261014,0.953757225433526,0.4584264749367909,adopt,evaluable_history
+natural:US_0002700:s69:L24,US_0002700,rf,20261014,1.0,0.4584264749367909,adopt,evaluable_history
+natural:US_0008293:s105:L24,US_0008293,rf,20261014,0.2301587301587301,0.4584264749367909,reject_low_probability,evaluable_history
+natural:AU_0001379:s30:L35,AU_0001379,rf,20261014,,0.4584264749367909,evidence_insufficient,no_complete_history_candidate

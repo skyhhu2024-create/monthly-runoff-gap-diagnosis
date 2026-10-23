@@ -1,0 +1,52 @@
+{
+  "status": "complete",
+  "current_truth_read": false,
+  "case_id": "synthetic-dense",
+  "position": "interior",
+  "algorithm": "rf",
+  "seed": 20261014,
+  "event": "original_event",
+  "candidate_station_columns": [
+    "donor_1",
+    "donor_2",
+    "donor_3",
+    "donor_4",
+    "donor_5",
+    "donor_6",
+    "donor_7",
+    "donor_8"
+  ],
+  "input_preflight": {
+    "enabled": false,
+    "budget": 4,
+    "pool_rejected": 0,
+    "active_rejected": 0
+  },
+  "model_summary": {
+    "model_fitted": true,
+    "fallback": null,
+    "memory_applied": true,
+    "memory": {
+      "phi": 0.044621650433221915,
+      "adjacent_visible_pairs": 226,
+      "residuals_from_this_models_visible_training_fit": true
+    },
+    "negative_query_predictions_before_clip": 0,
+    "algorithm": "rf",
+    "seed": 20261014,
+    "parameters": {
+      "n_estimators": 256,
+      "min_samples_leaf": 3,
+      "max_features": 1.0,
+      "n_jobs": 1
+    },
+    "fit_seconds": 1.1531334000173956,
+    "fit_failed": false,
+    "deterministic_seed_reuse": false
+  },
+  "input_sha256": {
+    "flow": "0745318614cd60745377993f3e15f4e2175487c2f7814d3f1a67bd40bf2bf8a5",
+    "metadata": "e153a64fc7ca50c61606b42be76ab7fdd946d21479ef4cf8350ccef073d4697f"
+  },
+  "diagnostic_model_sha256": null
+}

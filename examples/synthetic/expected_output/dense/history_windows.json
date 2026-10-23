@@ -1,0 +1,134 @@
+{
+  "matched": [
+    {
+      "start": 48,
+      "end_exclusive": 72,
+      "distance": 0.05823840852130324,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10685714285714286,
+        "query_donor_coverage": 0.02083333333333326
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.375,
+      "replay_gap_donor_coverage": 0.9583333333333334
+    },
+    {
+      "start": 216,
+      "end_exclusive": 240,
+      "distance": 0.06069971804511278,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10628571428571429,
+        "query_donor_coverage": 0.03125
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.5,
+      "replay_gap_donor_coverage": 0.9479166666666666
+    },
+    {
+      "start": 156,
+      "end_exclusive": 180,
+      "distance": 0.06185894423558895,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10571428571428572,
+        "query_donor_coverage": 0.03645833333333326
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.625,
+      "replay_gap_donor_coverage": 0.9427083333333334
+    },
+    {
+      "start": 132,
+      "end_exclusive": 156,
+      "distance": 0.06185894423558895,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10571428571428572,
+        "query_donor_coverage": 0.03645833333333326
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.625,
+      "replay_gap_donor_coverage": 0.9427083333333334
+    }
+  ],
+  "unmatched": [
+    {
+      "start": 155,
+      "end_exclusive": 179,
+      "distance": 0.10236638471177945,
+      "distance_components": {
+        "season": 0.16666666666666666,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10628571428571429,
+        "query_donor_coverage": 0.03125
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.5,
+      "replay_gap_donor_coverage": 0.9479166666666666
+    },
+    {
+      "start": 22,
+      "end_exclusive": 46,
+      "distance": 0.14866995614035086,
+      "distance_components": {
+        "season": 0.3333333333333333,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.104,
+        "query_donor_coverage": 0.05208333333333326
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 196.0,
+      "replay_gap_donor_coverage": 0.9270833333333334
+    },
+    {
+      "start": 48,
+      "end_exclusive": 72,
+      "distance": 0.05823840852130324,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10685714285714286,
+        "query_donor_coverage": 0.02083333333333326
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.375,
+      "replay_gap_donor_coverage": 0.9583333333333334
+    },
+    {
+      "start": 81,
+      "end_exclusive": 105,
+      "distance": 0.18801817042606514,
+      "distance_components": {
+        "season": 0.5,
+        "target_support": 0.10526315789473684,
+        "paired_support": 0.10514285714285715,
+        "query_donor_coverage": 0.04166666666666663
+      },
+      "inner_n_target": 204,
+      "inner_mean_paired_months": 195.75,
+      "replay_gap_donor_coverage": 0.9375
+    }
+  ],
+  "eligible_count": 180,
+  "equal_window_count": 4,
+  "current_n_target": 228,
+  "current_mean_paired_months": 218.75,
+  "current_gap_donor_coverage": 0.9791666666666666,
+  "matched_mean_distance": 0.06066400375939848,
+  "unmatched_mean_distance": 0.12432322994987469,
+  "distance_definition": "Equal mean: month circular distance/6, relative target count, relative mean paired count, absolute gap donor coverage. Relative difference = abs(a-b)/max(a,b,1).",
+  "selection_inputs": [
+    "target finite mask",
+    "donor finite mask",
+    "query indices",
+    "calendar months",
+    "boundary position",
+    "case_id SHA"
+  ]
+}

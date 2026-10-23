@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "scope": "Full real-case reconstruction, historical pseudo-gaps, historical features, original frozen M probability mapping and decisions.",
+  "case_checks": [
+    {
+      "case_id": "info1:BR_0001891:interior:L24:s052",
+      "status": "PASS",
+      "feature_max_absolute_difference": 8.847089727481716e-17,
+      "probability_absolute_difference": 0.0,
+      "decision": "accept",
+      "current_target_truth_read_by_reconstruction": false,
+      "original_monthly_MEAN_sources_verified": 101
+    },
+    {
+      "case_id": "natural:US_0002700:s69:L24",
+      "status": "PASS",
+      "feature_max_absolute_difference": 0.0,
+      "probability_absolute_difference": 0.0,
+      "decision": "accept",
+      "current_target_truth_read_by_reconstruction": false,
+      "original_monthly_MEAN_sources_verified": 101
+    }
+  ],
+  "derived_tri_state_API_verification": {
+    "case_count": 4,
+    "probability_max_absolute_difference": 0.0,
+    "all_decisions_equal": true
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scikit_learn": "1.9.0",
+    "scipy": "1.18.1"
+  },
+  "artifact_sha256": {
+    "ATTRIBUTION.md": "9e55e384fc34ccc5be2a6eb8f0a1ed71336203d424d82c585ae3262a212bbb62",
+    "case_metadata.json": "43ae3ec13003816556770e6245a0ec0c8dcb09cd9a652807f2738db119da5abc",
+    "command_line_reproduction_check.json": "896de764303fd15c30d930f6b12b4a80aeb4d23e97127325db2339a2ead38ae0",
+    "diagnostic_features_and_expected_decisions.csv": "ab4aa99a8e3c7fe5ce1e6925ca702fe92d461a2b6c5e46f7d8261f6f84af883e",
+    "expected_decisions.csv": "48f84cdaf34013f205b2dfe9fa39dd57cb874dad7b123dd87f4b06b1cdbe9aef",
+    "historical_window_scores.csv": "27abc5c2b17378983b15cb67390419f365140229ce02a9d95667282b86fbea00",
+    "model_m_rf_fold1.json": "b78b86761110e5d47b1048999ae6a23be86fecffa3b514e611ebfeebf5d7d26d",
+    "provenance.json": "a4b0d1fc6696e443d24b66d09dc24dc242784cbc432fc0eada46b35b0733d871",
+    "README.md": "2153c5287d633a658ba5e954e28605f437c6d0104ee47f14073d1b0dfb953c14",
+    "reproduce.py": "c108b5ba08724fdfd21a8a62f7eb6168dd3d7233ce04057d9dc5e6ae53c9fddb",
+    "verify_expected.py": "4ccea206a948aa2336384c0fe511fd657b22ee9e5760c05a157ad2bdafebeb72",
+    "visible_features.csv": "05fc8f65701751534078eeb89780b5c4f30e4d945aa85ae1678dd28af3c573ff",
+    "BR_0001891/manifest.json": "e9e3b3758b05f982c7612b540dc65f44dfacb2159703d9f116247f0e0e1edd11",
+    "BR_0001891/monthly_flow.csv": "3eb900bcc62ebacfbf991c23bdbc9a5ac003ec02225e16c0ef6bec1150dfddf4",
+    "BR_0001891/station_metadata.csv": "fd2b9ba80ff7ccb1719b77005cec8df4e0321a948798e7d20a1bbba2ba3fc2e9",
+    "BR_0001891/validation_truth.csv": "8cd9b2c9084de16f29322e47f7603ca31045faa774e94d5b5170a6361ad4dfa6",
+    "US_0002700/manifest.json": "2072942810ea6c41a603732cc5c78e78a838478215907eb5346198364fc5270e",
+    "US_0002700/monthly_flow.csv": "7714920d071a0f47f903b4c1ef7c15d9c074d3b32b1336c80f66a97858df7071",
+    "US_0002700/station_metadata.csv": "f457bc6ec936d09da9ea635fcad63d69e72179c1576a907dc30d20405a131bc2",
+    "BR_0001891/expected_output/current_reconstruction.csv": "8dd447a43ef5ee64f2e55245b35c1e6e7d1e5b206314a08c9a39f34e6b45380f",
+    "BR_0001891/expected_output/decisions.csv": "1a156e86382ff588de616ceb31dd44dcbc3606556a5fb22ec54e8eb486aced72",
+    "BR_0001891/expected_output/feature_comparison.csv": "57c03e8ae34590d84a88b404c0ef3812d380c7db364844409fc5f2a76933b9d1",
+    "BR_0001891/expected_output/history_records.csv": "377ea072736392461742e1dbeb6f8b486c43e3a6dc659c9e26f1b149b54d65d3",
+    "BR_0001891/expected_output/history_windows.json": "a4286aa635489fb40644c27e2f611cd39d35fca8a0c33d348099898134590cfc",
+    "BR_0001891/expected_output/post_decision_evaluation.json": "34390f111bd2c1fd71d9f829ee32db6635f261cf0b4b3fec22af916371babda6",
+    "BR_0001891/expected_output/run_receipt.json": "fc641877d7f59877bd31633f77aad0b108b2b80fc2795b4a8583aa1ffe948edc",
+    "BR_0001891/expected_output/visible_features.csv": "650c78d37a1a566335f4573f0171d1ed95efbd03a5f9855d309772325412eadd",
+    "US_0002700/expected_output/current_reconstruction.csv": "25aec0efe88ae179ba7389b5968f77bacff9a6371129b40d81afd14d1ddd7564",
+    "US_0002700/expected_output/decisions.csv": "f0621e896afbff04fa4cdcf34f607cdbb7af17ec791aaa11cba0ceaebb61ced2",
+    "US_0002700/expected_output/feature_comparison.csv": "4be2a4dd4e640d384d8a820e2d13bfdd95e8e8f0ef0139677ec497e20bd2222d",
+    "US_0002700/expected_output/history_records.csv": "5ee35ae56f07b87237b99aa6d09c42516706f4de8d44dffdaaa0625b657c883a",
+    "US_0002700/expected_output/history_windows.json": "b1579fa507af3ff846b2b26f8458ed8444edfcef2bf51fc58ba93a598d392e9f",
+    "US_0002700/expected_output/run_receipt.json": "05192942728262cc77de7e89029d0f208e735244f4fcf88a9fc8ccc66f9df13d",
+    "US_0002700/expected_output/visible_features.csv": "f4e3733ac4a2a32f4d09be890e46aa9f739bad499a87d0a68791b209917bff1f"
+  },
+  "command_line_runner_verified": true
+}

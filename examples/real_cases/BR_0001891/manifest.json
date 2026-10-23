@@ -1,0 +1,635 @@
+{
+  "data_kind": "GSIM monthly indices subset",
+  "target_station": "BR_0001891",
+  "case_id": "info1:BR_0001891:interior:L24:s052",
+  "calendar_start": "1995-01",
+  "calendar_end": "2015-12",
+  "gap_start": "1999-05",
+  "gap_end": "2001-04",
+  "gap_end_is_inclusive": true,
+  "gap_start_index": 52,
+  "gap_end_exclusive_index": 76,
+  "position": "interior",
+  "algorithm": "rf",
+  "seed": 20261014,
+  "event": "original_event",
+  "outer_fold": 1,
+  "candidate_count": 100,
+  "candidate_order": "Original registered nearest-100 donor pool; preserved in CSV column order. All candidates are included because historical matching and donor reselection use the pool.",
+  "units": "m3 s-1",
+  "source_data_doi": "10.1594/PANGAEA.887470",
+  "source_metadata_doi": "10.1594/PANGAEA.887477",
+  "license": "CC-BY-SA-3.0",
+  "changes": "Selected MEAN only; reindexed to consecutive 1995-01 through 2015-12; kept last duplicate month; nonfinite values made missing; target query masked; column aliases and metadata mapping added.",
+  "current_target_truth_in_input": false,
+  "current_truth_available_for_validation": true,
+  "original_case_sha256": "4ad178b0dcf8c1e5c165928d23acb8e306a43061d02148466c4c069fc1a2ded1",
+  "monthly_source_verification": [
+    {
+      "station_id": "BR_0001891",
+      "monthly_source_filename": "BR_0001891.mon",
+      "sha256": "82034105e8f738964ef0b8628bc41fb5175644dba1ef5d564b29f6c438de55f1",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001631",
+      "monthly_source_filename": "BR_0001631.mon",
+      "sha256": "e1219c81c6d811dd9ffd819cfcdb49f073af0f77e1b3588b6248c285af9a057b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001622",
+      "monthly_source_filename": "BR_0001622.mon",
+      "sha256": "278d49a838b6544b57ed4917b6dc85fedd60f37512886aa0633d39522d56a3da",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001630",
+      "monthly_source_filename": "BR_0001630.mon",
+      "sha256": "7f26fafd388c28878f598eecfd66af3bc82b2b92e45f38b3a70f047a9f45af41",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001629",
+      "monthly_source_filename": "BR_0001629.mon",
+      "sha256": "08a50506ea8e8a9f941fc60e49ce5460f32a6045c03914cbabb62aafd7a2e5bf",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001633",
+      "monthly_source_filename": "BR_0001633.mon",
+      "sha256": "68cb681910f45184bfc6ee3e5fe8190cc2023ade2367d4b289a1a1a372acdd3b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001635",
+      "monthly_source_filename": "BR_0001635.mon",
+      "sha256": "955ddc90d7e4052fddea060a7c382c0e51b87ed0a3ee1bf4f68007f27553e3e3",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001590",
+      "monthly_source_filename": "BR_0001590.mon",
+      "sha256": "9afb714aa67c118b0e2bb9883adcdbc6aa2bb64fa2c806e99283acdb4d6390dd",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001628",
+      "monthly_source_filename": "BR_0001628.mon",
+      "sha256": "56c06f894721cbb38777d0f665188d0b35de2a66f61e35f3a4ed467c228c339e",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001634",
+      "monthly_source_filename": "BR_0001634.mon",
+      "sha256": "5a20f4b916870b82ceb4371b296798e3d988c7316ff64ee5fff3b02fc0158eee",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001591",
+      "monthly_source_filename": "BR_0001591.mon",
+      "sha256": "552dc46fe062bddeb93bbffbe1bd475e2f57dc4185e29e7cd0a29ffebdbc8c60",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001596",
+      "monthly_source_filename": "BR_0001596.mon",
+      "sha256": "b84e4c93c4cfc694d437c7e6174479450cf71a33e82c6618cfc43677afe7ee9a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001637",
+      "monthly_source_filename": "BR_0001637.mon",
+      "sha256": "57cdbb974fefeaea0648c4f988f439770dfba0a0060c3d49ff122465a970751e",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001594",
+      "monthly_source_filename": "BR_0001594.mon",
+      "sha256": "c02790893a3ee5a6013e8bd9db820ffb28d5d77cf06f29dfeef5b0b619722731",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001625",
+      "monthly_source_filename": "BR_0001625.mon",
+      "sha256": "4e859e4dcd54066b7613bc7310e1044cae2d1c4b9efaeae706a67790773ec164",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001618",
+      "monthly_source_filename": "BR_0001618.mon",
+      "sha256": "04e42b0db529639632faee9c0c094df9170353a053fecc9dd2533f3293137c11",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001627",
+      "monthly_source_filename": "BR_0001627.mon",
+      "sha256": "e3888db171b8bdeea729b3011b9f5266c52d653c2eb2ac31c15eb14095182a49",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001620",
+      "monthly_source_filename": "BR_0001620.mon",
+      "sha256": "71a28447feb87f442025dafc8a8e9d3c7c013ece84ae7d4d3b3b856f847a684d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001607",
+      "monthly_source_filename": "BR_0001607.mon",
+      "sha256": "72ab6107398e25b32d198b0bb3441feec7f9d3a387d5dcad0d8d8c85fb9688fd",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001715",
+      "monthly_source_filename": "BR_0001715.mon",
+      "sha256": "e8059f597734cdda659de05175ae4e2febe4e852e206e65d1b0e5be27aa57679",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001660",
+      "monthly_source_filename": "BR_0001660.mon",
+      "sha256": "e8cb9884f85e8758b1398ed97cc669ee7c8e38d6c83a739771000a8d48a44dcf",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001616",
+      "monthly_source_filename": "BR_0001616.mon",
+      "sha256": "4d1a5fbc73de28efa497330f761c125f3fba9584db7c08a2f5683b3b4fb22419",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001615",
+      "monthly_source_filename": "BR_0001615.mon",
+      "sha256": "c079231a893a9f82f72b565391c0198673e73f15ab4311912f8260a2d4eec58a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001578",
+      "monthly_source_filename": "BR_0001578.mon",
+      "sha256": "3a89f29d7165e6a1e4583b9b7108c55714de78be88594d040b97358575f5e8e8",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001576",
+      "monthly_source_filename": "BR_0001576.mon",
+      "sha256": "8d1db75d00b7994a2231df137257ca646fd2028a94e53394c2c5adb2a454bdc3",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001610",
+      "monthly_source_filename": "BR_0001610.mon",
+      "sha256": "d3e501b844f12bff70d375bdc82a48168cd94ef2fdd5dcc2f2067e12edb258fc",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001650",
+      "monthly_source_filename": "BR_0001650.mon",
+      "sha256": "c9ff49e44e7fc3671ad5a951ee7531452fc9c4491e20775a79feb0b34c3816a8",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001717",
+      "monthly_source_filename": "BR_0001717.mon",
+      "sha256": "d01182059d0113cd301c6b360c99a362c11190ee7719f38f4ba9d10b1bf47b54",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001639",
+      "monthly_source_filename": "BR_0001639.mon",
+      "sha256": "1738dfb7b5ac4aa56e40a59beb46ff4ad33c849fe2c1261df2162220546640f5",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001662",
+      "monthly_source_filename": "BR_0001662.mon",
+      "sha256": "7effc116497c384687de933e1b6f90a5c164e33895c1085cedb94e7f76af560b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001641",
+      "monthly_source_filename": "BR_0001641.mon",
+      "sha256": "9827310a692a9e55caf3e382bf104d4f7858c2ca73b463ed265123fe51a06ee6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001649",
+      "monthly_source_filename": "BR_0001649.mon",
+      "sha256": "dce95f91f96eebf79ec1fc2bb71926ed2e4ad0afe9989b3ebe03dbebbf49791b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001613",
+      "monthly_source_filename": "BR_0001613.mon",
+      "sha256": "1ee9efa2a74d170e61cb9bc943fd31b6fe271f072e6e29866a654f8d2f03c4b4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001653",
+      "monthly_source_filename": "BR_0001653.mon",
+      "sha256": "e5d965ac7b214d34d82b8d20bacabea822631a6a32e7e5a34e53cf23b73186a6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001612",
+      "monthly_source_filename": "BR_0001612.mon",
+      "sha256": "c0f8b1849033a0c73278530188b96ba2ecd1a410594b69c4f848e8cca527da1c",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001989",
+      "monthly_source_filename": "BR_0001989.mon",
+      "sha256": "6b1aed050b56f8b892a2d349b236872d9bc66094316f893fe2c458605e3b78d7",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001507",
+      "monthly_source_filename": "BR_0001507.mon",
+      "sha256": "6b86e668040b25d6f3125896bc30be78208ae1adf19aeb1347c6baedef808af7",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001664",
+      "monthly_source_filename": "BR_0001664.mon",
+      "sha256": "73087f7f8e42cb3a3353820e75e52291c765687d9dded8c95c12e381c5a4ea10",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000823",
+      "monthly_source_filename": "BR_0000823.mon",
+      "sha256": "ca88448a8609745cfd2e3fec6f450e0c0b6296074dbad864c13ec544cc09e63d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001656",
+      "monthly_source_filename": "BR_0001656.mon",
+      "sha256": "2efd44081cec3da6fd2b3e4062ad14c6ce553963ba761c1b933625f858d6af7b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001938",
+      "monthly_source_filename": "BR_0001938.mon",
+      "sha256": "2c48671d2f5cf5f0b53a5828ad152b3527fd2678371328c967b29b09492e7212",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001643",
+      "monthly_source_filename": "BR_0001643.mon",
+      "sha256": "1b15f686b70140bda2f444960c967d7779e10728b60839b3c11e9aba2458376d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001342",
+      "monthly_source_filename": "BR_0001342.mon",
+      "sha256": "078f97101d11000f909767596ae892cfdd27a739d321ba2c3b0dd08d3d39b988",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001657",
+      "monthly_source_filename": "BR_0001657.mon",
+      "sha256": "c6f81fa546f8cdf9958ff0fcae6bc00a902290a532161ad76d4b451f7a66217b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001708",
+      "monthly_source_filename": "BR_0001708.mon",
+      "sha256": "fe90b8ce59057908afd2a5fba4b6caa86ca9107a6c95c91b2bee7f8fafdc05d2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001665",
+      "monthly_source_filename": "BR_0001665.mon",
+      "sha256": "8ca963cc15d6de4bb51620f8b789237459555a5bc44ac6d607993f8c57137763",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001339",
+      "monthly_source_filename": "BR_0001339.mon",
+      "sha256": "6a626852578d092e43da0cebe9e391799b88cb8988c895e6838e38e6d624e2ef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001561",
+      "monthly_source_filename": "BR_0001561.mon",
+      "sha256": "09ad1814e20579ad4a941e9955289b13aea7d6304ec5584bf808aa0d52468711",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001672",
+      "monthly_source_filename": "BR_0001672.mon",
+      "sha256": "fdd6499d8fb60293a17e4db5c158d92c967aeb4a5a094eed21fa7e5283af8901",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001647",
+      "monthly_source_filename": "BR_0001647.mon",
+      "sha256": "5f8fd41f699151ae69cb1f5ec47d98a4cee1256b28390789b983ef059b8a9f68",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001676",
+      "monthly_source_filename": "BR_0001676.mon",
+      "sha256": "5c54cab12a4be4ce7670974c780b61f0247f00e5f7f35fbb1cd9655ad29d2943",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001514",
+      "monthly_source_filename": "BR_0001514.mon",
+      "sha256": "6b72e5b22fd956b57badb8de4260a19391744522c913e54d1a89d38ab84cf41f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001344",
+      "monthly_source_filename": "BR_0001344.mon",
+      "sha256": "800394dec2f80538d419fc15fa4828e95680ce7cc59dc30904c767fc7802c478",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001510",
+      "monthly_source_filename": "BR_0001510.mon",
+      "sha256": "fd0de151f5cdcade5148f233350de345eb71a23245279452c5d591db74e0d4ab",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001702",
+      "monthly_source_filename": "BR_0001702.mon",
+      "sha256": "b4f3b754fd1413d89038e031c2f10c5ce9f615f7a8e17cd793741c60f58ccec0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001346",
+      "monthly_source_filename": "BR_0001346.mon",
+      "sha256": "a5a1b678f5001ea227fc7f38025f11f09cd87c73cdc72b2bcfda90d31c6b521a",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001673",
+      "monthly_source_filename": "BR_0001673.mon",
+      "sha256": "735d27c8de833a1a9f3d9d69773b709b7995554930f1e5ffab778d4096ffc7d7",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001681",
+      "monthly_source_filename": "BR_0001681.mon",
+      "sha256": "b12ecc0e56c5a3cf4da150cfbcd99e51a89474e2f23f5175d6f0b4568885d89b",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000883",
+      "monthly_source_filename": "BR_0000883.mon",
+      "sha256": "5c503ebb2fbbb3940470f73eab5e9398aa5eb5f022585f180408131326fe6e75",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001703",
+      "monthly_source_filename": "BR_0001703.mon",
+      "sha256": "61485eafcb03f09edc1cb1425aee057250723e7a98dfe45d6b19deebd11a30a2",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001648",
+      "monthly_source_filename": "BR_0001648.mon",
+      "sha256": "52b42c1a85ea9f88f269cc79b5dbde65ca6d7443b047df92d49b5f4d86ea1a55",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001704",
+      "monthly_source_filename": "BR_0001704.mon",
+      "sha256": "272dbe5a06fd05a01c812e2a5151e0227c1fab892e60d80555b0aa11142e56c8",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000840",
+      "monthly_source_filename": "BR_0000840.mon",
+      "sha256": "63a5dad3dc847fe8f1a69f5ddd6f947299add248b451d328a2af9a3a27258ac3",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001689",
+      "monthly_source_filename": "BR_0001689.mon",
+      "sha256": "ad9677f84841d3aa2987e24c28268b80c57a12f0b2bc3246f582115dca965a0c",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001362",
+      "monthly_source_filename": "BR_0001362.mon",
+      "sha256": "9249683ca998b590f1013972a98589d38e2b2e705dff3fa835d3ee2e305325a0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000803",
+      "monthly_source_filename": "BR_0000803.mon",
+      "sha256": "2919c977dbba0c79cfa9f2e75f730d93ef82732d7644fc52254b3a433a39eacd",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000805",
+      "monthly_source_filename": "BR_0000805.mon",
+      "sha256": "a2181587c1416a95debbef3e192e047c10f9ec16c67e474bd3fd3f5f5dc998cb",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000846",
+      "monthly_source_filename": "BR_0000846.mon",
+      "sha256": "b0766bcc01693b6f80fa5036d89329c6dae5a3f00d8a46abe9f69e268e6fbff4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000844",
+      "monthly_source_filename": "BR_0000844.mon",
+      "sha256": "8f94e0e93688c1d1e3dae87bad722b742bc54dedaecd3ef0abe78f43a817f0d4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000807",
+      "monthly_source_filename": "BR_0000807.mon",
+      "sha256": "fa019d43a2c951637d86f4b11cc7a5b208a5decf0fa384f53eb3f76fd5fd7239",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000848",
+      "monthly_source_filename": "BR_0000848.mon",
+      "sha256": "e13bf462e8d382b3d03f7dcc384ada3a146b9d23950d590155152ec935eac220",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000809",
+      "monthly_source_filename": "BR_0000809.mon",
+      "sha256": "547f6bd11a525b7be664e12368d6c183fcdc0c230c28c6a47a72c9ec2567b8f5",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000890",
+      "monthly_source_filename": "BR_0000890.mon",
+      "sha256": "bf1844ad085e68648219440a9abae0f918276ed68237ba37b6c09b9c24b3103c",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001542",
+      "monthly_source_filename": "BR_0001542.mon",
+      "sha256": "56fc8b8236b0b91989d8034e23c912bc588400f8c49f449e15ebbe524b7dd58f",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001349",
+      "monthly_source_filename": "BR_0001349.mon",
+      "sha256": "76f9ef0a010bf07460060c94c01893bdd18417747b69f42bdfb09235270a0a77",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000865",
+      "monthly_source_filename": "BR_0000865.mon",
+      "sha256": "7570316a36052331f24d8a0b4555117a34e893fecc3595a98f1e5b52b6a89996",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000843",
+      "monthly_source_filename": "BR_0000843.mon",
+      "sha256": "b29e4d2f1718c5a4f5b47830b93525999598d8f449294ff316c15c6826bf3c8d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001694",
+      "monthly_source_filename": "BR_0001694.mon",
+      "sha256": "954c6f3702365fc0b8a6ee1c17234b7c8cc946e60d99548667290fc7736669b4",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001693",
+      "monthly_source_filename": "BR_0001693.mon",
+      "sha256": "0917b611cf16ee80ed2fa864e07bdeb19546681bea49b4295b368458195a5bef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001669",
+      "monthly_source_filename": "BR_0001669.mon",
+      "sha256": "4e485997df7539f75d3828e16548155c2429969087f07c8c8f999896e2eb45a0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001686",
+      "monthly_source_filename": "BR_0001686.mon",
+      "sha256": "71ae7ce9cfae7be3b7af3c698326ecc6956c62b4cec31e202a17c7457dc0a225",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001390",
+      "monthly_source_filename": "BR_0001390.mon",
+      "sha256": "a4fe1305e260d5ab5859a64942fd7914ba1d51dba4eee0b9bb7b3d5543044030",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001679",
+      "monthly_source_filename": "BR_0001679.mon",
+      "sha256": "1ead0f7ea7e397dfe6762f5f2154e71fb64f124dea7e06daaa52bb4d84ed3c40",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001692",
+      "monthly_source_filename": "BR_0001692.mon",
+      "sha256": "407e6ad52bb677768d125a842b645ad2874bbed2c72468a63ec49a6b6143620e",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001526",
+      "monthly_source_filename": "BR_0001526.mon",
+      "sha256": "af7a589d2052efb6ce9daeed3de93748f4c651b04013664825ec8905038c1ff6",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000788",
+      "monthly_source_filename": "BR_0000788.mon",
+      "sha256": "bb32a7cf8d85689f3e288bc691994c218bc582f3a73c054e04ba8baf31a9f3f0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001384",
+      "monthly_source_filename": "BR_0001384.mon",
+      "sha256": "300533cd4c47ff39c7479328e8b7f5fc37354fece004c7951903fb3097f841dd",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001696",
+      "monthly_source_filename": "BR_0001696.mon",
+      "sha256": "a2ceb33f6835fc74523881c8c00c25e1dd2e9112d6616616ab0b17bd9dbfe10d",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001368",
+      "monthly_source_filename": "BR_0001368.mon",
+      "sha256": "dfa297c97a72a6941cbfc3bdf151706458041b359b5503d8b9ca6fa4497d5a29",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001697",
+      "monthly_source_filename": "BR_0001697.mon",
+      "sha256": "828430e97f3fe2fce30e7d99a93b282d1b1fd670bc3581f255ce67766cc3ddbb",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000898",
+      "monthly_source_filename": "BR_0000898.mon",
+      "sha256": "ffbb0213516a02117559f4d7d85550f44854713f8edf8e42dc0f62157b24758e",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000787",
+      "monthly_source_filename": "BR_0000787.mon",
+      "sha256": "70c3adea08a0aae5741455f825f62536de2b0e51d070d44b370fe68fe13e02bc",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001701",
+      "monthly_source_filename": "BR_0001701.mon",
+      "sha256": "b9d86b8c15d1ef3b23c64c20e6123f04b584abfaa987460a0a4a495740554ac0",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001687",
+      "monthly_source_filename": "BR_0001687.mon",
+      "sha256": "9f28008e0163eb4f467504f69251603ffc406c87e2ba0e1bcaabbff3a43205ef",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001376",
+      "monthly_source_filename": "BR_0001376.mon",
+      "sha256": "878ab82b6b21bb531eeac50f6bb0540f5bffdc985d0ca816e83f87c0466e6c31",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000900",
+      "monthly_source_filename": "BR_0000900.mon",
+      "sha256": "1fd123c70fb83544ce7c3aed321002d0a616b7868d71887bfd742c4b506be8a7",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001695",
+      "monthly_source_filename": "BR_0001695.mon",
+      "sha256": "37a55fc1922d92de313aa64dc6a948bbe03d9bb6364ae3c8c83b23d3c79e3d44",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0000813",
+      "monthly_source_filename": "BR_0000813.mon",
+      "sha256": "625b89922f82bcfd38e2f8a54a71c4ff055452ee45f65bc50717faebe662bedb",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001369",
+      "monthly_source_filename": "BR_0001369.mon",
+      "sha256": "3d302001b462544c245eaa00addd536ea3a1236178bc7b69f6465ffc00d2a017",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0001372",
+      "monthly_source_filename": "BR_0001372.mon",
+      "sha256": "9bb994760e938432406d396725970c99b539f046f305f9154d00e9a9a5754eda",
+      "calendar_cache_MEAN_match": true
+    },
+    {
+      "station_id": "BR_0002187",
+      "monthly_source_filename": "BR_0002187.mon",
+      "sha256": "13af9b169c776aa7959d19e0ef406dc4e223271aec3fe6cecee0014a2a5f6937",
+      "calendar_cache_MEAN_match": true
+    }
+  ]
+}

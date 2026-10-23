@@ -1,0 +1,8 @@
+case_id,feature,published_expected,recomputed,absolute_difference
+info1:BR_0001891:interior:L24:s052,hist_valid_count,4.0,4.0,0.0
+info1:BR_0001891:interior:L24:s052,hist_window_count,4.0,4.0,0.0
+info1:BR_0001891:interior:L24:s052,hist_R_median,0.9571115618745356,0.9571115618745356,0.0
+info1:BR_0001891:interior:L24:s052,hist_R_iqr,0.0054925275472272,0.005492527547227288,8.847089727481716e-17
+info1:BR_0001891:interior:L24:s052,hist_NSE_median,0.8978947199900864,0.8978947199900864,0.0
+info1:BR_0001891:interior:L24:s052,hist_NSE_iqr,0.0217565256937948,0.021756525693794826,2.42861286636753e-17
+info1:BR_0001891:interior:L24:s052,hist_joint_rate,1.0,1.0,0.0

@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "scientific_source_freeze": "2026-10-23",
+  "python_sources_parsed": 20,
+  "public_implementation_files": {
+    "src/gsim_gap_diagnostic/__init__.py": "110ec86ac57419aba1488af77005368424648c60300cc815fcbc46db8054035b",
+    "src/gsim_gap_diagnostic/__main__.py": "5dc3aa0e9f44405b7e9a8720fa852734300b2f81ccad05eed4c85b65302612ee",
+    "src/gsim_gap_diagnostic/_history_model.py": "b074f42b6e592da683ac8850feacbabc12d66db488af61e7862cabe1d697b6fe",
+    "src/gsim_gap_diagnostic/_io.py": "9ab93aeb1decdce8a934879e18a879faddaf813a1be9c6a6376c168be88037e2",
+    "src/gsim_gap_diagnostic/cli.py": "cc0961a18efc134ed978e7dd55b93868ec59b67d068d439f071d9cd6499eb8b1",
+    "src/gsim_gap_diagnostic/controls.py": "3c7e8abbc288e3c85eff08d721097aca5f4f4ed82ca10a731b562647a7b6d2b2",
+    "src/gsim_gap_diagnostic/diagnosis.py": "6c9c92b78af0b770ad7f12fa37c66c0a7fbfcea997d6efcabe6cef07f48ebab9",
+    "src/gsim_gap_diagnostic/evaluation.py": "c79ad9b8c8cb1c61ac4fce2b1544351ac17c42c2318d2d60e6120e45f995ee38",
+    "src/gsim_gap_diagnostic/inputs.py": "046fcd15b9ec597b1f8800b5f49a611e65cbf3260a01a5ee666a3a1759343960",
+    "src/gsim_gap_diagnostic/optional_neural.py": "6941a0418dc1b0912eb09f57ba2d8dac6f84c0ff1e304bd1db9458fcc1e97c49",
+    "src/gsim_gap_diagnostic/pipeline.py": "d8c0ec9bce0f2f9744f5fc96247d520cc63aefa6265368ed026e86b26bb765fd",
+    "src/gsim_gap_diagnostic/reconstruction.py": "095e5cc91dfd6593a211be84c8c780ae56fb841ee45792edaa6e52505ac246e0",
+    "src/gsim_gap_diagnostic/reductions.py": "6c198056807736426221ddf3439518faa8fa3c339e9128a40f6a9fa19255de7b",
+    "src/gsim_gap_diagnostic/replay.py": "cc90f1b7ad8d9f0005f6964dc39dcba1edaa58d28a2aca0678fc25698e9b2a91",
+    "src/gsim_gap_diagnostic/scores.py": "495e7284e22324e0f733e02fa0636c15fcbd83200f7f52fcce1a4b4b767683a8",
+    "src/gsim_gap_diagnostic/selection.py": "f9734c7741c938ceb177542020e6f000c3a19e9b9ebc344c876dcdfb6e3bcce2",
+    "src/gsim_gap_diagnostic/spatial.py": "5312068e4f7785cdac156486f9fb6da84b1a56fe35c8b3996b28e03a67bf9ca1",
+    "src/gsim_gap_diagnostic/windows.py": "be1b1b1ba66180e0aed3611771c37880b65b503e89de367844ed4ba7e722283e",
+    "scripts/replay_published_results.py": "b6df3fe9c48e70d8330ecf97af167856ccd91be6ae3950b5428b05d6795aecf3",
+    "scripts/reproduce_reconstructions.py": "33a20f46f4d4336b73a17eff07d0c9af5f28daa1d2565f89b67e24daa4a9f1a0",
+    "configs/frozen_models/index.json": "0abc8df5de985159b9bca4d94d9ef04e6c187655376c4c7a5e6055f658cd8b2a",
+    "configs/frozen_models/M_original_event_extratrees_fold0.json": "92b64b28c12beb1165089bf0393028b51e90e6fae9d9d3e30c559bca6c5da278",
+    "configs/frozen_models/M_original_event_extratrees_fold1.json": "a2cec438e6ff61f03cae4841e545e7a67251624581f78f45b73f9ef164645568",
+    "configs/frozen_models/M_original_event_extratrees_fold2.json": "506b95bd5f037c2430ab35ac9d377f0641b692e4b91d0d53e90c32f6d599fe98",
+    "configs/frozen_models/M_original_event_extratrees_fold3.json": "7c4c48adb5aea69027024c664894cfbc9526b65872e12325b7f5ea3da04a9d23",
+    "configs/frozen_models/M_original_event_extratrees_fold4.json": "81ece69f129b0f42e63412c6bcc9e7b76fbe2e891512c1a59b93d0fec1997b97",
+    "configs/frozen_models/M_original_event_idw_fold0.json": "79d806cdcbf6423afde774de260ff1fc9426f66689a8442d39403e9e2cca5294",
+    "configs/frozen_models/M_original_event_idw_fold1.json": "0dfbbae35bfb63e6f98b59d09be75aea726a789cb43a105d695b986b71ff94f1",
+    "configs/frozen_models/M_original_event_idw_fold2.json": "b3a7ccb51bdfeec599dd18e44ec63729a585af49b4eff781d76eb1329bceee6e",
+    "configs/frozen_models/M_original_event_idw_fold3.json": "dd2b2bf5a104c2bfd2d4a273a9dba23988a8c90a23c8c13c38bb76d3d62cee51",
+    "configs/frozen_models/M_original_event_idw_fold4.json": "d8d0c1eb4907d4ad7bfd90193887044869d46059a89a29cc8cbcbab2c08bb648",
+    "configs/frozen_models/M_original_event_rf_fold0.json": "0ad79c48bfbe87e6a2ce4d01afe557dae60be29195f048a23689c8f18696327a",
+    "configs/frozen_models/M_original_event_rf_fold1.json": "5fb405c89216332b3654e60e97cfa8bc39d8569f2e740f3295bbe059f1c30196",
+    "configs/frozen_models/M_original_event_rf_fold2.json": "b58bc016293789c6ade83211a3ecf0eb493099e28c41f7460c4f4bdd6680b2f8",
+    "configs/frozen_models/M_original_event_rf_fold3.json": "9d8d03769ce7a4a304171af25b1aa46f3c4f44b2f0edf5a9ca38d5f3f200329d",
+    "configs/frozen_models/M_original_event_rf_fold4.json": "4cef949f6ab3fffb25ec90aef381507c215c33678fa2739b74cd01cf36d2d1d6",
+    "configs/frozen_models/M_original_event_ridge_fold0.json": "5d05e09c0269891e7e657f7b2222c694ea245c253b34e9acd2aa4b8f078b02b0",
+    "configs/frozen_models/M_original_event_ridge_fold1.json": "ba0994cc8a5aa80e2c0a5b2637d95d081af3fa16cc8b8126762f03ba56ab2bae",
+    "configs/frozen_models/M_original_event_ridge_fold2.json": "6f39b51b8c62009521ead4789f6d951373a7d260e6e00293fa5c6214d4691778",
+    "configs/frozen_models/M_original_event_ridge_fold3.json": "79fdc911a81aa025151cf1f225e2fbfd1d770d88aeeeb578ed7709ab9c723f1f",
+    "configs/frozen_models/M_original_event_ridge_fold4.json": "6cf47f0fa216e883074167934068f995a58b6aad95ddceedea900c3831536f6c",
+    "configs/frozen_models/M_original_event_xgboost_fold0.json": "0ec8cf1146464eb478650fe7ef41bb1df5216c9a91c02a36576b929768160b2d",
+    "configs/frozen_models/M_original_event_xgboost_fold1.json": "1457f61cb6597ab11e9c08758453e237300e324ca4f82bb277d28477e8a31a73",
+    "configs/frozen_models/M_original_event_xgboost_fold2.json": "4f2d2abdb395e54a100da82becd4b5cc2669161a7e5c90d860c8aaeb4837bac6",
+    "configs/frozen_models/M_original_event_xgboost_fold3.json": "69475c0c25ceaa352ac9672cabd8279c151319a4fa9e545049fb9468bef771d7",
+    "configs/frozen_models/M_original_event_xgboost_fold4.json": "d0af53e0fd22ee4235df728893c59068e8f32a373e2cd3b5c85b4be9e9ded73c",
+    "configs/frozen_models/M_seasonal_event_extratrees_fold0.json": "fd86ea20e4eed53ef30ce351c2ab4f532aaa70d09b49b63784a58852ad541f93",
+    "configs/frozen_models/M_seasonal_event_extratrees_fold1.json": "ce25d7d7fbec556ae85f6da0e5952304a58a769459223b72df311a6685e34ec1",
+    "configs/frozen_models/M_seasonal_event_extratrees_fold2.json": "d0169b1993ffbd9d2e179c4c2b812994a95acf301bb31d81f491cc3c7e208a37",
+    "configs/frozen_models/M_seasonal_event_extratrees_fold3.json": "891a73a94b5023f2e5032602832ebe651a8420a1436c2ba695a1b1071d6cd347",
+    "configs/frozen_models/M_seasonal_event_extratrees_fold4.json": "2c9dbdce71a4ea67afc283cfbabc459dd869eadde6db89d5e572574edab30fa0",
+    "configs/frozen_models/M_seasonal_event_idw_fold0.json": "b38d1bc4b1ac85e0b345b2dd20465b56c57c1bf9e4bd24342b2fbbaf6ecaa87d",
+    "configs/frozen_models/M_seasonal_event_idw_fold1.json": "5a10e4891b08636ad1eb95100c89274f3b6aa853e3646704e718aa518cbb446c",
+    "configs/frozen_models/M_seasonal_event_idw_fold2.json": "126be323d239de4605333ece23d4f927e114798834e8b3c0c890a97f0cccafe2",
+    "configs/frozen_models/M_seasonal_event_idw_fold3.json": "4815690a8cd47c394469ce458a7a6961288ac017614f76f7ba8c436c740ef096",
+    "configs/frozen_models/M_seasonal_event_idw_fold4.json": "c1eed1488744f2070c791e3eb8687f2b01263088f414b00878a9d67d3e249510",
+    "configs/frozen_models/M_seasonal_event_rf_fold0.json": "908f398f886bcce22e5a488d4a34782cb41d759cb4d9a5dd20a0f33000fb54d4",
+    "configs/frozen_models/M_seasonal_event_rf_fold1.json": "1d0f3b5aae9e3f9ab0feadbc0d823f895114fa27156d36a3b5702fb13a7a29a2",
+    "configs/frozen_models/M_seasonal_event_rf_fold2.json": "291a0cfdabe3c1c97aed6ef5784a24c9173d4dacbe67e54a08e07a6562aadd94",
+    "configs/frozen_models/M_seasonal_event_rf_fold3.json": "06d3912c230a1c6c7ca9e9f8db264d9ad19962b3ff2ae897b337bd9f9bd1f5ab",
+    "configs/frozen_models/M_seasonal_event_rf_fold4.json": "e2694fec50a39aefb8cf6599a6be8878c6df755c914642ac4d9c6d3d31c1356c",
+    "configs/frozen_models/M_seasonal_event_ridge_fold0.json": "f265df855cb7ea85576eb78dc53e8bac00e2baa9fbe769cdf14bfc3ff2e8a611",
+    "configs/frozen_models/M_seasonal_event_ridge_fold1.json": "7a67266ed70e94b1f6621d487b71fe1dbb2082bcaf90cd07ec17a670a6d39f47",
+    "configs/frozen_models/M_seasonal_event_ridge_fold2.json": "2e5b6e21b47fc192556cf7e29641d2a49eea529c8702f906f337eb3d2a6d7267",
+    "configs/frozen_models/M_seasonal_event_ridge_fold3.json": "e5deb28aa3cd91617f6b173835504211c8cfe886325344e374e18fbdf92885ef",
+    "configs/frozen_models/M_seasonal_event_ridge_fold4.json": "5d52cb3fc1523212a8b2724180152ca56543ba595ac6425f502f5fdd692b3f79",
+    "configs/frozen_models/M_seasonal_event_xgboost_fold0.json": "d392d92cbe47750558b8dfef08e6f54fc5f7bcc4a9edbab1e2d292ce4ed95791",
+    "configs/frozen_models/M_seasonal_event_xgboost_fold1.json": "2738aa55bfb8668c8404fcca8ca0110b86f42085359cec5a0bfc4219b924e0e4",
+    "configs/frozen_models/M_seasonal_event_xgboost_fold2.json": "c2875f7bf6192a2bde51b9f062c69393526a8a0dc4f3668acd3a51f29ff304e7",
+    "configs/frozen_models/M_seasonal_event_xgboost_fold3.json": "97d45be79d563491a6c011c98cf2f4291ee0355b65473c354a74741e9c71b25d",
+    "configs/frozen_models/M_seasonal_event_xgboost_fold4.json": "14cbcfb32ad167798b57af3e9884b73a0c2989f2760993f0a6dff00e395459cd",
+    "configs/method_defaults.json": "ab0a02553e22eb2baa5e6b67b8c8511cd2e6168ce654d369871c7a2e7468db94"
+  },
+  "adapted_method_origins": {
+    "diagnosis.py": [
+      {
+        "original_relative_source": "gap_diagnostic_hess_revision_20261014/round6_20261022/utility_extensions/run_extensions.py",
+        "sha256": "81a1dfb5a7b7facb73efc6f0ae185a395c131ccbb526004a373640d3e3fa233a"
+      },
+      {
+        "original_relative_source": "gap_diagnostic_hess_revision_20261014/controls/run_controls.py",
+        "sha256": "3b70edc622e26b907b3ce9c4dbe0a344181b3ed926523600b560dea2dda80129"
+      },
+      {
+        "original_relative_source": "gap_information_transfer_20261013/calibration_transfer.py",
+        "sha256": "2badcddeb419e8204024750b6d062c36b9c2a2f14bd46ddccc01589027d65c7e"
+      }
+    ],
+    "controls.py": [
+      {
+        "original_relative_source": "gap_diagnostic_hess_revision_20261014/round6_20261022/reduction_controls/run_controls.py",
+        "sha256": "4520aa615584c733a7feada85dc8b247ebcfeca28a0e8a03e713acd74a2bbd39"
+      }
+    ],
+    "reductions.py": [
+      {
+        "original_relative_source": "gap_diagnostic_information_reduction_20261014/prepare_reduction.py",
+        "sha256": "08a395f64d560a0e8551f643dadd718507063cf5dc726494a4f6802b52115981"
+      }
+    ],
+    "selection.py": [
+      {
+        "original_relative_source": "gap_diagnostic_hess_revision_20261014/round6_20261022/utility_extensions/run_extensions.py",
+        "sha256": "81a1dfb5a7b7facb73efc6f0ae185a395c131ccbb526004a373640d3e3fa233a"
+      }
+    ],
+    "scores.py": [
+      {
+        "original_relative_source": "gap_diagnostic_algorithm_robustness_20261014/prepare_cases.py",
+        "sha256": "47dee95886a63f39d9dd4e2aef3f901eca20760331270535118426779a60f574"
+      },
+      {
+        "original_relative_source": "gap_diagnostic_hess_revision_20261014/round3_20261015/seasonal/run_seasonal_refit.py",
+        "sha256": "61c6daded112e182ad5adc82b91b9d924b424ffa6ce2c80a431db02d1da86106"
+      }
+    ],
+    "spatial.py": [
+      {
+        "original_relative_source": "gap_information_diagnostic_20261013/cohort_inventory.py",
+        "sha256": "95c4ae4f424e397020a3a1c8156b4e7b8707f6ac61828958ba363d1eda340943"
+      },
+      {
+        "original_relative_source": "gap_diagnostic_information_upgrade_20261014/register_spatial_cv.py",
+        "sha256": "01ed26df4790bdb3e364603555bc37605f83da2b10c6f05de6a50841e28c0208"
+      },
+      {
+        "original_relative_source": "gap_diagnostic_information_upgrade_20261014/upgrade_models.py",
+        "sha256": "3e1b2718d7da363ea3af46bf6bbc1e10367418849adedbba8b674fe9f099ad05"
+      }
+    ]
+  },
+  "validated": [
+    "five reconstruction learners identical to original functions",
+    "current hidden target rejected",
+    "historical12month missingness replay retained",
+    "81520 frozen M probabilities and decisions replayed",
+    "50 M original-cohort TRAIN/CAL refits:81520 decisions exactly reproduced",
+    "RF H fold1 refit:1617 decisions exactly reproduced",
+    "BR raw monthly index archive reconstruction:historical R and NSE medians exactly reproduced",
+    "paired overlap and conditional-target masks share exact donor matrix"
+  ],
+  "optional_neural": "Original supplementary local LSTM/TCN source retained and syntax checked; not rerun in release QA."
+}

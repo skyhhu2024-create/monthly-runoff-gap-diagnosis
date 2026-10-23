@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "station_id": "BR_0001891",
+      "status": "PASS",
+      "historical_trials": 4,
+      "probability": 0.953757225433526,
+      "decision": "accept"
+    },
+    {
+      "station_id": "US_0002700",
+      "status": "PASS",
+      "historical_trials": 4,
+      "probability": 1.0,
+      "decision": "accept"
+    }
+  ],
+  "truth_read_by_this_runner": false,
+  "scope": "Reconstruction, historical windows, trial scores, M probability and decision."
+}

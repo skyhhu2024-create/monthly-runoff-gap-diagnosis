@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying GSIM source datasets."
+type: software
+title: "Monthly streamflow gap recoverability diagnosis"
+version: "1.0.0"
+date-released: "2026-10-23"
+url: "https://github.com/skyhhu2024-create/monthly-runoff-gap-diagnosis"
+repository-code: "https://github.com/skyhhu2024-create/monthly-runoff-gap-diagnosis"
+license: MIT
+authors:
+  - family-names: "Chen"
+    given-names: "Mingrui"
+  - family-names: "Yong"
+    given-names: "Bin"
+  - family-names: "Liao"
+    given-names: "Weihong"
+  - family-names: "Li"
+    given-names: "Haichen"
+  - family-names: "Dai"
+    given-names: "Wei"
+  - family-names: "Wang"
+    given-names: "Jia"
+  - family-names: "Wang"
+    given-names: "Hao"

@@ -1,0 +1,5 @@
+case_id,station_id,algorithm,seed,outer_fold,kind,hist_window_count,hist_valid_count,hist_R_median,hist_R_iqr,hist_NSE_median,hist_NSE_iqr,hist_joint_rate,diagnostic_available,probability,threshold,state,evidence_reason
+info1:BR_0001891:interior:L24:s052,BR_0001891,rf,20261014,1,artificial_worked_example,4,4,0.9571115618745356,0.0054925275472272,0.8978947199900864,0.0217565256937948,1.0,True,0.953757225433526,0.4584264749367909,adopt,evaluable_history
+natural:US_0002700:s69:L24,US_0002700,rf,20261014,1,native_missing_interval,4,4,0.9847681416340666,0.015471575505899948,0.9620990647454726,0.04005280296293412,1.0,True,1.0,0.4584264749367909,adopt,evaluable_history
+natural:US_0008293:s105:L24,US_0008293,rf,20261014,1,native_missing_interval,4,4,0.8927713856848271,0.08454719427355517,0.12278142686079213,0.43918743991548975,0.25,True,0.2301587301587301,0.4584264749367909,reject_low_probability,evaluable_history
+natural:AU_0001379:s30:L35,AU_0001379,rf,20261014,1,native_missing_interval,0,0,,,,,,True,,0.4584264749367909,evidence_insufficient,no_complete_history_candidate

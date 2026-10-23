@@ -1,0 +1,2 @@
+# Preserve exact released bytes so checksum manifests are portable across systems.
+* -text

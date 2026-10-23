@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "info1:BR_0001891:interior:L24:s052",
+    "station_id": "BR_0001891",
+    "algorithm": "rf",
+    "seed": 20261014,
+    "outer_fold": 1,
+    "kind": "artificial_worked_example",
+    "gap_start_date": "1999-05",
+    "gap_end_date": "2001-04",
+    "gap_length": 24,
+    "position": "interior",
+    "selection_rule": "Previously registered manuscript Figure 2 case; not a random representative sample.",
+    "current_truth_available": true,
+    "current_truth_in_diagnostic_inputs": false
+  },
+  {
+    "case_id": "natural:US_0002700:s69:L24",
+    "station_id": "US_0002700",
+    "algorithm": "rf",
+    "seed": 20261014,
+    "outer_fold": 1,
+    "kind": "native_missing_interval",
+    "gap_start_date": "2000-10",
+    "gap_end_date": "2002-09",
+    "gap_length": 24,
+    "position": "interior",
+    "selection_rule": "Manuscript Figure 6 case selected by visible observations and smallest case-ID SHA256, before inspecting reconstruction probability.",
+    "current_truth_available": false,
+    "current_truth_in_diagnostic_inputs": false
+  },
+  {
+    "case_id": "natural:US_0008293:s105:L24",
+    "station_id": "US_0008293",
+    "algorithm": "rf",
+    "seed": 20261014,
+    "outer_fold": 1,
+    "kind": "native_missing_interval",
+    "gap_start_date": "2003-10",
+    "gap_end_date": "2005-09",
+    "gap_length": 24,
+    "position": "interior",
+    "selection_rule": "Release-only tri-state illustration: within RF M fold 1 internal gaps and the requested state, prefer length 24 if available, then smallest case-ID SHA256; never claimed representative.",
+    "current_truth_available": false,
+    "current_truth_in_diagnostic_inputs": false
+  },
+  {
+    "case_id": "natural:AU_0001379:s30:L35",
+    "station_id": "AU_0001379",
+    "algorithm": "rf",
+    "seed": 20261014,
+    "outer_fold": 1,
+    "kind": "native_missing_interval",
+    "gap_start_date": "1997-07",
+    "gap_end_date": "2000-05",
+    "gap_length": 35,
+    "position": "interior",
+    "selection_rule": "Release-only tri-state illustration: within RF M fold 1 internal gaps and the requested state, prefer length 24 if available, then smallest case-ID SHA256; never claimed representative.",
+    "current_truth_available": false,
+    "current_truth_in_diagnostic_inputs": false
+  }
+]

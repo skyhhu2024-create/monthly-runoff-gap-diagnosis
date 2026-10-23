@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "check": "reconstruction_numerical_identity",
+      "algorithm": "idw",
+      "exact": true
+    },
+    {
+      "check": "reconstruction_numerical_identity",
+      "algorithm": "ridge",
+      "exact": true
+    },
+    {
+      "check": "reconstruction_numerical_identity",
+      "algorithm": "rf",
+      "exact": true
+    },
+    {
+      "check": "reconstruction_numerical_identity",
+      "algorithm": "extratrees",
+      "exact": true
+    },
+    {
+      "check": "reconstruction_numerical_identity",
+      "algorithm": "xgboost",
+      "exact": true
+    },
+    {
+      "check": "visible_only_interior",
+      "passed": true
+    },
+    {
+      "check": "visible_only_leading",
+      "passed": true
+    },
+    {
+      "check": "visible_only_trailing",
+      "passed": true
+    },
+    {
+      "check": "all355_block_assignments_exact",
+      "passed": true
+    },
+    {
+      "check": "M_TRAIN_refit_CAL_policy",
+      "fold": 0,
+      "adoption_exact": true
+    },
+    {
+      "check": "M_TRAIN_refit_CAL_policy",
+      "fold": 1,
+      "adoption_exact": true
+    },
+    {
+      "check": "M_TRAIN_refit_CAL_policy",
+      "fold": 2,
+      "adoption_exact": true
+    },
+    {
+      "check": "M_TRAIN_refit_CAL_policy",
+      "fold": 3,
+      "adoption_exact": true
+    },
+    {
+      "check": "M_TRAIN_refit_CAL_policy",
+      "fold": 4,
+      "adoption_exact": true
+    }
+  ],
+  "runtime": {
+    "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:29:09) [MSC v.1943 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "pandas": "2.3.3"
+  },
+  "test_scope": "Original numerical scientific functions versus portable source; five algorithms; three support directions; all355 folds; five RF M refits; current outcome rejection."
+}

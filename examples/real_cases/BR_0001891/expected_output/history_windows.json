@@ -1,0 +1,134 @@
+{
+  "matched": [
+    {
+      "start": 88,
+      "end_exclusive": 112,
+      "distance": 0.078632327020127,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.1576072650697553,
+        "query_donor_coverage": 0.002083333333333326
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.01,
+      "replay_gap_donor_coverage": 0.995
+    },
+    {
+      "start": 28,
+      "end_exclusive": 52,
+      "distance": 0.07889547192668134,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.15740984469597272,
+        "query_donor_coverage": 0.0033333333333332993
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.04,
+      "replay_gap_donor_coverage": 0.99375
+    },
+    {
+      "start": 4,
+      "end_exclusive": 28,
+      "distance": 0.08293036049384814,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.1543827322979732,
+        "query_donor_coverage": 0.022499999999999964
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.5,
+      "replay_gap_donor_coverage": 0.9745833333333334
+    },
+    {
+      "start": 124,
+      "end_exclusive": 148,
+      "distance": 0.08529866465283731,
+      "distance_components": {
+        "season": 0.0,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.15260594893392995,
+        "query_donor_coverage": 0.03374999999999995
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.77,
+      "replay_gap_donor_coverage": 0.9633333333333334
+    }
+  ],
+  "unmatched": [
+    {
+      "start": 95,
+      "end_exclusive": 119,
+      "distance": 0.2868779453846089,
+      "distance_components": {
+        "season": 0.8333333333333334,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.1576730718610161,
+        "query_donor_coverage": 0.0016666666666667052
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.0,
+      "replay_gap_donor_coverage": 0.9954166666666666
+    },
+    {
+      "start": 25,
+      "end_exclusive": 49,
+      "distance": 0.20494805155289875,
+      "distance_components": {
+        "season": 0.5,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.1566201632008424,
+        "query_donor_coverage": 0.008333333333333304
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.16,
+      "replay_gap_donor_coverage": 0.98875
+    },
+    {
+      "start": 132,
+      "end_exclusive": 156,
+      "distance": 0.2564058913352976,
+      "distance_components": {
+        "season": 0.6666666666666666,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.14911818899710447,
+        "query_donor_coverage": 0.05499999999999994
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 129.3,
+      "replay_gap_donor_coverage": 0.9420833333333334
+    },
+    {
+      "start": 1,
+      "end_exclusive": 25,
+      "distance": 0.20784264552499668,
+      "distance_components": {
+        "season": 0.5,
+        "target_support": 0.15483870967741936,
+        "paired_support": 0.154448539089234,
+        "query_donor_coverage": 0.022083333333333344
+      },
+      "inner_n_target": 131,
+      "inner_mean_paired_months": 128.49,
+      "replay_gap_donor_coverage": 0.975
+    }
+  ],
+  "eligible_count": 51,
+  "equal_window_count": 4,
+  "current_n_target": 155,
+  "current_mean_paired_months": 151.96,
+  "current_gap_donor_coverage": 0.9970833333333333,
+  "matched_mean_distance": 0.08143920602337346,
+  "unmatched_mean_distance": 0.23901863344945048,
+  "distance_definition": "Equal mean: month circular distance/6, relative target count, relative mean paired count, absolute gap donor coverage. Relative difference = abs(a-b)/max(a,b,1).",
+  "selection_inputs": [
+    "target finite mask",
+    "donor finite mask",
+    "query indices",
+    "calendar months",
+    "boundary position",
+    "case_id SHA"
+  ]
+}
